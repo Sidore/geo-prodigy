@@ -19,7 +19,7 @@
 
 </template>
 <script>
-import d from "../assets/data.json"
+import d from "../assets/data.json";
 export default {
   name: 'google-map',
   props: ['name'],
