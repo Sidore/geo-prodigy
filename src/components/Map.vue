@@ -134,11 +134,13 @@ export default {
 
       this.data.issues = this.data.issues.map((iss) => {
 
-        let a = arr.push({
+        let a = {
           tile : iss.name,
           latitude: 51.501527 + Math.random(),
           longitude: -0.1921837 + + Math.random()
-        })
+        };
+
+        arr.push(a);
 
         iss.tooltip = a;
 
@@ -179,6 +181,64 @@ export default {
     this.markers.push(marker)
       this.map.fitBounds(this.bounds.extend(position))
     });
+
+    console.log(this.data.issues)
+  
+    // var triangleCoords = this.data.issues.map((i) => {
+    //   return {
+    //     lat : i.tooltip.latitude ,
+    //     lng : i.tooltip.longitude
+    //     }
+    // })
+
+    this.data.issues.forEach((i) => {
+       
+      var triangleCoords = 
+    [
+          {lat: i.tooltip.latitude + 0.05, lng: i.tooltip.longitude - 0.05},
+          {lat: i.tooltip.latitude + 0.05, lng: i.tooltip.longitude + 0.05},          
+          {lat: i.tooltip.latitude - 0.05, lng: i.tooltip.longitude + 0.05},
+          {lat: i.tooltip.latitude - 0.05, lng: i.tooltip.longitude - 0.05}
+        ];
+
+      var r=Math.floor(Math.random() * (256));
+
+    var g=Math.floor(Math.random() * (256));
+
+    var b=Math.floor(Math.random() * (256));
+
+    var с ='#' + r.toString(16) + g.toString(16) + b.toString(16);
+
+
+       var bermudaTriangle = new google.maps.Polygon({
+          paths: triangleCoords,
+          strokeColor: '#eee',
+          strokeOpacity: 0.8,
+          strokeWeight: 2,
+          fillColor: с,
+          fillOpacity: 0.35
+        });
+        bermudaTriangle.setMap(this.map);
+    })
+
+    // console.log(triangleCoords)
+    //  [
+    //       {lat: 25.774, lng: -80.190},
+    //       {lat: 18.466, lng: -66.118},
+    //       {lat: 32.321, lng: -64.757},
+    //       // {lat: 25.774, lng: -80.190}
+    //     ];
+
+        // Construct the polygon.
+        // var bermudaTriangle = new google.maps.Polygon({
+        //   paths: triangleCoords,
+        //   strokeColor: '#FF0000',
+        //   strokeOpacity: 0.8,
+        //   strokeWeight: 2,
+        //   fillColor: '#FF0000',
+        //   fillOpacity: 0.35
+        // });
+        // bermudaTriangle.setMap(this.map);
   }
 };
 </script>
