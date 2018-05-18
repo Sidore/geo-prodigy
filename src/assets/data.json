@@ -1,104 +1,100 @@
-{
+﻿{
   "calculations_description": [
     {
       "calculation_number": "1",
-      "calculation_name": "Серія Тест 1",
-      "description_of_calculation": "Лорум іпсум Лорум іпсум Лорум іпсум Лорум іпсум",
-      "issue_id": null
+      "calculation_name": "a1",
+      "description_of_calculation": "b1",
+      "issue_id": "12",
+      "id_of_expert": "1"
+    },
+    {
+      "calculation_number": "1",
+      "calculation_name": "Княжичі (медик)",
+      "description_of_calculation": "b3",
+      "issue_id": "12",
+      "id_of_expert": "3"
     },
     {
       "calculation_number": "2",
-      "calculation_name": "Серія Тест 2",
-      "description_of_calculation": "Лорум іпсум Лорум іпсум Лорум іпсум",
-      "issue_id": null
+      "calculation_name": "Княжичі (економіст)",
+      "description_of_calculation": "тестетс",
+      "issue_id": "12",
+      "id_of_expert": "1"
+    },
+    {
+      "calculation_number": "2",
+      "calculation_name": "a31",
+      "description_of_calculation": "b31",
+      "issue_id": "12",
+      "id_of_expert": "3"
     },
     {
       "calculation_number": "3",
-      "calculation_name": "Серія Тест 3",
-      "description_of_calculation": "Лорум іпсум Лорум іпсум Лорум іпсум",
-      "issue_id": null
+      "calculation_name": "",
+      "description_of_calculation": "",
+      "issue_id": "12",
+      "id_of_expert": "1"
     }
   ],
   "calculations_result": [
     {
       "calculation_number": "1",
-      "date_of_calculation": "2018-02-11 17:35:51",
-      "id_of_formula": "29",
-      "result": "6"
+      "date_of_calculation": "2018-05-09 17:09:29",
+      "result": "0",
+      "id_of_expert": "1"
     },
     {
       "calculation_number": "1",
-      "date_of_calculation": "2018-02-11 17:36:07",
-      "id_of_formula": "30",
-      "result": "8"
-    },
-    {
-      "calculation_number": "1",
-      "date_of_calculation": "2018-02-11 17:36:23",
-      "id_of_formula": "31",
-      "result": "3"
-    },
-    {
-      "calculation_number": "1",
-      "date_of_calculation": "2018-02-11 17:36:39",
-      "id_of_formula": "32",
-      "result": "32"
+      "date_of_calculation": "2018-05-09 17:04:51",
+      "result": "12",
+      "id_of_expert": "3"
     },
     {
       "calculation_number": "2",
-      "date_of_calculation": "2018-02-11 20:44:04",
-      "id_of_formula": "1",
-      "result": "3984"
+      "date_of_calculation": "2018-05-10 16:22:03",
+      "result": "1189760.4",
+      "id_of_expert": "1"
     },
     {
       "calculation_number": "2",
-      "date_of_calculation": "2018-02-11 20:44:23",
-      "id_of_formula": "2",
-      "result": "-5.93258426966292"
+      "date_of_calculation": "2018-05-04 13:32:54",
+      "result": "9",
+      "id_of_expert": "1"
     },
     {
       "calculation_number": "2",
-      "date_of_calculation": "2018-02-11 20:44:46",
-      "id_of_formula": "4",
-      "result": "1645"
-    },
-    {
-      "calculation_number": "2",
-      "date_of_calculation": "2018-02-11 20:44:53",
-      "id_of_formula": "5",
-      "result": "66"
+      "date_of_calculation": "2018-05-09 17:04:51",
+      "result": "0",
+      "id_of_expert": "1"
     },
     {
       "calculation_number": "3",
-      "date_of_calculation": "2018-02-11 20:45:33",
-      "id_of_formula": "7",
-      "result": "1327901.06047953"
-    },
-    {
-      "calculation_number": "3",
-      "date_of_calculation": "2018-02-11 20:46:13",
-      "id_of_formula": "10",
-      "result": "1530"
-    },
-    {
-      "calculation_number": "3",
-      "date_of_calculation": "2018-02-11 20:45:51",
-      "id_of_formula": "11",
-      "result": "100"
-    },
-    {
-      "calculation_number": "3",
-      "date_of_calculation": "2018-02-11 20:45:59",
-      "id_of_formula": "12",
-      "result": "14"
-    },
-    {
-      "calculation_number": "3",
-      "date_of_calculation": "2018-02-11 20:46:05",
-      "id_of_formula": "13",
-      "result": "1416"
+      "date_of_calculation": "2018-05-10 16:20:17",
+      "result": "1215014.47",
+      "id_of_expert": "1"
     }
   ],
+  "event": [
+    {
+      "event_id": "1",
+      "name": "Zahid",
+      "description": "zag",
+      "lawyer_vefirication": null,
+      "dm_verification": null,
+      "id_of_user": "5",
+      "issue_id": "12"
+    }
+  ],
+  "event_documents": [],
+  "event_resource": [
+    {
+      "resource_id": "4",
+      "event_id": "1",
+      "value": "200",
+      "description": "na lechenie"
+    }
+  ],
+  "event_template": [],
   "expert": [
     {
       "id_of_expert": "0",
@@ -128,455 +124,787 @@
   "formula_compound": [
     {
       "id_of_formula": "4",
-      "id_of_parameter": "0"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "5",
-      "id_of_parameter": "0"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "6",
-      "id_of_parameter": "0"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "11",
-      "id_of_parameter": "0"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "12",
-      "id_of_parameter": "0"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "13",
-      "id_of_parameter": "0"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "15",
-      "id_of_parameter": "0"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "16",
-      "id_of_parameter": "0"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "18",
-      "id_of_parameter": "0"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "19",
-      "id_of_parameter": "0"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "20",
-      "id_of_parameter": "0"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "21",
-      "id_of_parameter": "0"
-    },
-    {
-      "id_of_formula": "1",
-      "id_of_parameter": "1"
-    },
-    {
-      "id_of_formula": "1",
-      "id_of_parameter": "2"
-    },
-    {
-      "id_of_formula": "1",
-      "id_of_parameter": "3"
-    },
-    {
-      "id_of_formula": "2",
-      "id_of_parameter": "4"
-    },
-    {
-      "id_of_formula": "2",
-      "id_of_parameter": "5"
-    },
-    {
-      "id_of_formula": "2",
-      "id_of_parameter": "6"
-    },
-    {
-      "id_of_formula": "2",
-      "id_of_parameter": "7"
-    },
-    {
-      "id_of_formula": "3",
-      "id_of_parameter": "8"
-    },
-    {
-      "id_of_formula": "3",
-      "id_of_parameter": "9"
-    },
-    {
-      "id_of_formula": "3",
-      "id_of_parameter": "10"
-    },
-    {
-      "id_of_formula": "4",
-      "id_of_parameter": "11"
-    },
-    {
-      "id_of_formula": "4",
-      "id_of_parameter": "12"
-    },
-    {
-      "id_of_formula": "5",
-      "id_of_parameter": "13"
-    },
-    {
-      "id_of_formula": "5",
-      "id_of_parameter": "14"
-    },
-    {
-      "id_of_formula": "6",
-      "id_of_parameter": "15"
-    },
-    {
-      "id_of_formula": "6",
-      "id_of_parameter": "16"
-    },
-    {
-      "id_of_formula": "14",
-      "id_of_parameter": "17"
-    },
-    {
-      "id_of_formula": "14",
-      "id_of_parameter": "18"
-    },
-    {
-      "id_of_formula": "14",
-      "id_of_parameter": "19"
-    },
-    {
-      "id_of_formula": "14",
-      "id_of_parameter": "20"
-    },
-    {
-      "id_of_formula": "14",
-      "id_of_parameter": "21"
-    },
-    {
-      "id_of_formula": "14",
-      "id_of_parameter": "22"
-    },
-    {
-      "id_of_formula": "15",
-      "id_of_parameter": "23"
-    },
-    {
-      "id_of_formula": "16",
-      "id_of_parameter": "24"
-    },
-    {
-      "id_of_formula": "15",
-      "id_of_parameter": "25"
-    },
-    {
-      "id_of_formula": "16",
-      "id_of_parameter": "26"
-    },
-    {
-      "id_of_formula": "15",
-      "id_of_parameter": "28"
-    },
-    {
-      "id_of_formula": "16",
-      "id_of_parameter": "29"
-    },
-    {
-      "id_of_formula": "17",
-      "id_of_parameter": "30"
-    },
-    {
-      "id_of_formula": "17",
-      "id_of_parameter": "31"
-    },
-    {
-      "id_of_formula": "18",
-      "id_of_parameter": "32"
-    },
-    {
-      "id_of_formula": "18",
-      "id_of_parameter": "33"
-    },
-    {
-      "id_of_formula": "19",
-      "id_of_parameter": "34"
-    },
-    {
-      "id_of_formula": "19",
-      "id_of_parameter": "35"
-    },
-    {
-      "id_of_formula": "20",
-      "id_of_parameter": "36"
-    },
-    {
-      "id_of_formula": "20",
-      "id_of_parameter": "37"
-    },
-    {
-      "id_of_formula": "20",
-      "id_of_parameter": "38"
-    },
-    {
-      "id_of_formula": "20",
-      "id_of_parameter": "39"
-    },
-    {
-      "id_of_formula": "20",
-      "id_of_parameter": "40"
-    },
-    {
-      "id_of_formula": "21",
-      "id_of_parameter": "41"
-    },
-    {
-      "id_of_formula": "21",
-      "id_of_parameter": "42"
-    },
-    {
-      "id_of_formula": "25",
-      "id_of_parameter": "49"
-    },
-    {
-      "id_of_formula": "25",
-      "id_of_parameter": "50"
-    },
-    {
-      "id_of_formula": "26",
-      "id_of_parameter": "51"
-    },
-    {
-      "id_of_formula": "26",
-      "id_of_parameter": "52"
-    },
-    {
-      "id_of_formula": "27",
-      "id_of_parameter": "54"
-    },
-    {
-      "id_of_formula": "27",
-      "id_of_parameter": "55"
-    },
-    {
-      "id_of_formula": "27",
-      "id_of_parameter": "56"
-    },
-    {
-      "id_of_formula": "28",
-      "id_of_parameter": "57"
-    },
-    {
-      "id_of_formula": "28",
-      "id_of_parameter": "58"
-    },
-    {
-      "id_of_formula": "8",
-      "id_of_parameter": "59"
-    },
-    {
-      "id_of_formula": "8",
-      "id_of_parameter": "60"
-    },
-    {
-      "id_of_formula": "8",
-      "id_of_parameter": "61"
-    },
-    {
-      "id_of_formula": "9",
-      "id_of_parameter": "63"
-    },
-    {
-      "id_of_formula": "9",
-      "id_of_parameter": "64"
-    },
-    {
-      "id_of_formula": "9",
-      "id_of_parameter": "65"
-    },
-    {
-      "id_of_formula": "9",
-      "id_of_parameter": "66"
-    },
-    {
-      "id_of_formula": "9",
-      "id_of_parameter": "67"
-    },
-    {
-      "id_of_formula": "9",
-      "id_of_parameter": "68"
-    },
-    {
-      "id_of_formula": "9",
-      "id_of_parameter": "69"
-    },
-    {
-      "id_of_formula": "10",
-      "id_of_parameter": "70"
-    },
-    {
-      "id_of_formula": "10",
-      "id_of_parameter": "71"
-    },
-    {
-      "id_of_formula": "10",
-      "id_of_parameter": "72"
-    },
-    {
-      "id_of_formula": "11",
-      "id_of_parameter": "73"
-    },
-    {
-      "id_of_formula": "11",
-      "id_of_parameter": "74"
-    },
-    {
-      "id_of_formula": "11",
-      "id_of_parameter": "75"
-    },
-    {
-      "id_of_formula": "11",
-      "id_of_parameter": "76"
-    },
-    {
-      "id_of_formula": "11",
-      "id_of_parameter": "77"
-    },
-    {
-      "id_of_formula": "11",
-      "id_of_parameter": "78"
-    },
-    {
-      "id_of_formula": "11",
-      "id_of_parameter": "79"
-    },
-    {
-      "id_of_formula": "11",
-      "id_of_parameter": "80"
-    },
-    {
-      "id_of_formula": "12",
-      "id_of_parameter": "81"
-    },
-    {
-      "id_of_formula": "12",
-      "id_of_parameter": "82"
-    },
-    {
-      "id_of_formula": "13",
-      "id_of_parameter": "83"
-    },
-    {
-      "id_of_formula": "13",
-      "id_of_parameter": "84"
-    },
-    {
-      "id_of_formula": "7",
-      "id_of_parameter": "85"
-    },
-    {
-      "id_of_formula": "7",
-      "id_of_parameter": "86"
-    },
-    {
-      "id_of_formula": "7",
-      "id_of_parameter": "87"
-    },
-    {
-      "id_of_formula": "7",
-      "id_of_parameter": "88"
-    },
-    {
-      "id_of_formula": "7",
-      "id_of_parameter": "89"
-    },
-    {
-      "id_of_formula": "22",
-      "id_of_parameter": "90"
-    },
-    {
-      "id_of_formula": "22",
-      "id_of_parameter": "91"
-    },
-    {
-      "id_of_formula": "24",
-      "id_of_parameter": "92"
-    },
-    {
-      "id_of_formula": "24",
-      "id_of_parameter": "93"
-    },
-    {
-      "id_of_formula": "24",
-      "id_of_parameter": "94"
-    },
-    {
-      "id_of_formula": "24",
-      "id_of_parameter": "95"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "23",
-      "id_of_parameter": "96"
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "24",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "44",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "1",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "1",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "1",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "1",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "1",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "2",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "2",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "2",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "2",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "2",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "2",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "3",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "2",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "3",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "3",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "3",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "3",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "3",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "3",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "4",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "5",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "4",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "4",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "5",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "5",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "6",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "4",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "5",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "6",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "6",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "6",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "6",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "7",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "6",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "7",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "7",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "7",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "14",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "8",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "9",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "14",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "10",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "11",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "14",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "10",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "11",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "14",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "10",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "14",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "10",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_formula": "14",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "15",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "16",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "15",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "16",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "15",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "16",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "17",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "17",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "18",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "18",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "19",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "21",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "19",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "20",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "20",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "20",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "20",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "20",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "21",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "25",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "25",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "26",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "26",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "27",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "27",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "27",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "28",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "28",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "8",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "8",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "8",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "9",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "9",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "9",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "9",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "9",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "9",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "9",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "10",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "10",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "10",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "11",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "11",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "11",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "11",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "11",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "11",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "11",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "11",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "12",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "12",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "13",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "13",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "7",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "7",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "7",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "7",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "7",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "22",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "22",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "24",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "24",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "24",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "24",
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "23",
-      "id_of_parameter": "97"
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "23",
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "29",
-      "id_of_parameter": "99"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "29",
-      "id_of_parameter": "100"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "29",
-      "id_of_parameter": "101"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "30",
-      "id_of_parameter": "102"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "30",
-      "id_of_parameter": "103"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "30",
-      "id_of_parameter": "104"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "31",
-      "id_of_parameter": "105"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "31",
-      "id_of_parameter": "106"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "31",
-      "id_of_parameter": "107"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "32",
-      "id_of_parameter": "108"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "32",
-      "id_of_parameter": "109"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "32",
-      "id_of_parameter": "110"
+      "id_of_expert": "1"
     },
     {
       "id_of_formula": "32",
-      "id_of_parameter": "111"
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "33",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "33",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "33",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "33",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "33",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "33",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "34",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "34",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "34",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "34",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "34",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "34",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "34",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "35",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "35",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "39",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "35",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "35",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "35",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "35",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "36",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "36",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "36",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "36",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "36",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "36",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "37",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "37",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "37",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "37",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "37",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "38",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "38",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "39",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "39",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "39",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "39",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "39",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "39",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "40",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "40",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "41",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "41",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "41",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "42",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "42",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "43",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "43",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "43",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "44",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_formula": "44",
+      "id_of_expert": "1"
     }
   ],
   "formula_parameters": [
@@ -595,11 +923,25 @@
       "id_of_expert": "1"
     },
     {
+      "id_of_parameter": "1",
+      "name_of_parameter": "X1",
+      "measurement_of_parameter": "млн. м^3",
+      "description_of_parameter": "об\\'єм скидання неочиищенних стічних вод\\r\\n",
+      "id_of_expert": "3"
+    },
+    {
       "id_of_parameter": "2",
       "name_of_parameter": "C(t)",
       "measurement_of_parameter": "грн",
       "description_of_parameter": "Об`єм споживання",
       "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "2",
+      "name_of_parameter": "X2",
+      "measurement_of_parameter": "млн. м^3",
+      "description_of_parameter": "викиди в атмосферу повітря оксидів азоту",
+      "id_of_expert": "3"
     },
     {
       "id_of_parameter": "3",
@@ -609,11 +951,25 @@
       "id_of_expert": "1"
     },
     {
+      "id_of_parameter": "3",
+      "name_of_parameter": "X3",
+      "measurement_of_parameter": "тис. т.",
+      "description_of_parameter": "об\\'єм скидання забрудненних стічних вод",
+      "id_of_expert": "3"
+    },
+    {
       "id_of_parameter": "4",
       "name_of_parameter": "ЗВ",
       "measurement_of_parameter": "грн",
       "description_of_parameter": "Запаси та витрати підприємства",
       "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "4",
+      "name_of_parameter": "X4",
+      "measurement_of_parameter": "тис. т.",
+      "description_of_parameter": "об\\'єм викидів хімчних речовин",
+      "id_of_expert": "3"
     },
     {
       "id_of_parameter": "5",
@@ -623,11 +979,25 @@
       "id_of_expert": "1"
     },
     {
+      "id_of_parameter": "5",
+      "name_of_parameter": "X5",
+      "measurement_of_parameter": "млн. м^3",
+      "description_of_parameter": "об\\'єм викидів хімчних речовин",
+      "id_of_expert": "3"
+    },
+    {
       "id_of_parameter": "6",
       "name_of_parameter": "ВМП",
       "measurement_of_parameter": "грн",
       "description_of_parameter": "Витрати майбутніх періодів підприємства",
       "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "6",
+      "name_of_parameter": "X1",
+      "measurement_of_parameter": "млн. м^3",
+      "description_of_parameter": "об\\'єм викидів неочищенних стічних вод",
+      "id_of_expert": "3"
     },
     {
       "id_of_parameter": "7",
@@ -637,11 +1007,25 @@
       "id_of_expert": "1"
     },
     {
+      "id_of_parameter": "7",
+      "name_of_parameter": "X3",
+      "measurement_of_parameter": "тис. т.",
+      "description_of_parameter": "викиди хім. речовин пересувними установками",
+      "id_of_expert": "3"
+    },
+    {
       "id_of_parameter": "8",
       "name_of_parameter": "ЧГПо",
       "measurement_of_parameter": "грн",
       "description_of_parameter": "Сума чистого грошового потоку підприємства по операційній діяльності",
       "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "8",
+      "name_of_parameter": "X4",
+      "measurement_of_parameter": "тис. т.",
+      "description_of_parameter": "викиди хім. речовин стаціонарними установками",
+      "id_of_expert": "3"
     },
     {
       "id_of_parameter": "9",
@@ -651,6 +1035,13 @@
       "id_of_expert": "1"
     },
     {
+      "id_of_parameter": "9",
+      "name_of_parameter": "X5",
+      "measurement_of_parameter": "тис. т.",
+      "description_of_parameter": "викиди хім. речовин стаціонарними установками",
+      "id_of_expert": "3"
+    },
+    {
       "id_of_parameter": "10",
       "name_of_parameter": "ЧГПф",
       "measurement_of_parameter": "грн",
@@ -658,46 +1049,67 @@
       "id_of_expert": "1"
     },
     {
+      "id_of_parameter": "10",
+      "name_of_parameter": "X1",
+      "measurement_of_parameter": "тис. т.",
+      "description_of_parameter": "викиди хім. речовин стаціонарними установками",
+      "id_of_expert": "3"
+    },
+    {
       "id_of_parameter": "11",
-      "name_of_parameter": "Mi(a)",
+      "name_of_parameter": "Mi",
       "measurement_of_parameter": "т",
-      "description_of_parameter": "Обсяг викинутої у атмосферу речовини",
+      "description_of_parameter": "Обсяг викинутої речовини",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "11",
+      "name_of_parameter": "X2",
+      "measurement_of_parameter": "тис. т.",
+      "description_of_parameter": "викиди хім. речовин пересувними установками",
+      "id_of_expert": "3"
+    },
+    {
+      "id_of_parameter": "12",
+      "name_of_parameter": "Npi",
+      "measurement_of_parameter": "грн",
+      "description_of_parameter": "Ставка податку за тонну викинутої речовини",
       "id_of_expert": "1"
     },
     {
       "id_of_parameter": "12",
-      "name_of_parameter": "Npi(a)",
-      "measurement_of_parameter": "грн",
-      "description_of_parameter": "Ставка податку за тонну викинутої у атмосферу речовини",
-      "id_of_expert": "1"
+      "name_of_parameter": "АДС",
+      "measurement_of_parameter": "мм. рт. ст.",
+      "description_of_parameter": "систолічний арт. тиск",
+      "id_of_expert": "3"
     },
     {
       "id_of_parameter": "13",
-      "name_of_parameter": "Mi(в)",
-      "measurement_of_parameter": "т",
-      "description_of_parameter": "Обсяг викинутої у водні об\\'єкти речовини",
-      "id_of_expert": "1"
+      "name_of_parameter": "ЗДВ",
+      "measurement_of_parameter": "сек.",
+      "description_of_parameter": "затримка дихання після гибокого вдиху",
+      "id_of_expert": "3"
     },
     {
       "id_of_parameter": "14",
-      "name_of_parameter": "Npi(в)",
-      "measurement_of_parameter": "грн",
-      "description_of_parameter": "Ставка податку за тонну викинутої у водні об\\'єкти речовини",
-      "id_of_expert": "1"
+      "name_of_parameter": "СОЗ",
+      "measurement_of_parameter": "",
+      "description_of_parameter": "індекс самооцінки здоров\\'я",
+      "id_of_expert": "3"
     },
     {
       "id_of_parameter": "15",
-      "name_of_parameter": "Mi(г)",
-      "measurement_of_parameter": "т",
-      "description_of_parameter": "Обсяг викинутої речовини у виді відходів до грунті",
-      "id_of_expert": "1"
+      "name_of_parameter": "СБ",
+      "measurement_of_parameter": "сек.",
+      "description_of_parameter": "статичне балансування",
+      "id_of_expert": "3"
     },
     {
       "id_of_parameter": "16",
-      "name_of_parameter": "Npi(г)",
-      "measurement_of_parameter": "грн",
-      "description_of_parameter": "Ставка податку за тонну викинутої речовини у виді відходів до грунті",
-      "id_of_expert": "1"
+      "name_of_parameter": "АДП",
+      "measurement_of_parameter": "мм рт.ст",
+      "description_of_parameter": "пульсовий тиск",
+      "id_of_expert": "3"
     },
     {
       "id_of_parameter": "17",
@@ -707,11 +1119,25 @@
       "id_of_expert": "1"
     },
     {
+      "id_of_parameter": "17",
+      "name_of_parameter": "МТ",
+      "measurement_of_parameter": "кг",
+      "description_of_parameter": "маса тіла",
+      "id_of_expert": "3"
+    },
+    {
       "id_of_parameter": "18",
       "name_of_parameter": "Фг",
       "measurement_of_parameter": "грн",
       "description_of_parameter": "Збитки від руйнування та пошкодження основних фондів невиробничого призначення",
       "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "18",
+      "name_of_parameter": "КВ",
+      "measurement_of_parameter": "рік",
+      "description_of_parameter": "календарний вік",
+      "id_of_expert": "3"
     },
     {
       "id_of_parameter": "19",
@@ -721,11 +1147,25 @@
       "id_of_expert": "1"
     },
     {
+      "id_of_parameter": "19",
+      "name_of_parameter": "X1",
+      "measurement_of_parameter": "мл. кг^-1 хв^-1",
+      "description_of_parameter": "споживання кисню на висоті навантаження",
+      "id_of_expert": "3"
+    },
+    {
       "id_of_parameter": "20",
       "name_of_parameter": "Прс",
       "measurement_of_parameter": "грн",
       "description_of_parameter": "Збитки від втрат незібраної\\nсільськогосподарської продукції",
       "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "20",
+      "name_of_parameter": "X2",
+      "measurement_of_parameter": "хв^-1",
+      "description_of_parameter": "макс. значення частоти серцевих скорочень",
+      "id_of_expert": "3"
     },
     {
       "id_of_parameter": "21",
@@ -735,6 +1175,13 @@
       "id_of_expert": "1"
     },
     {
+      "id_of_parameter": "21",
+      "name_of_parameter": "X3",
+      "measurement_of_parameter": "Вт",
+      "description_of_parameter": "потужність порогового фіз. навантаження",
+      "id_of_expert": "3"
+    },
+    {
       "id_of_parameter": "22",
       "name_of_parameter": "Мдг",
       "measurement_of_parameter": "грн",
@@ -742,16 +1189,16 @@
       "id_of_expert": "1"
     },
     {
-      "id_of_parameter": "23",
-      "name_of_parameter": "ΔP",
-      "measurement_of_parameter": "",
-      "description_of_parameter": "Зменшення балансової вартості i-го виду основних фондів виробничого призначення внаслідок повного або часткового руйнування з\\nурахуванням відповідних коефіцієнтів індексації",
-      "id_of_expert": "1"
+      "id_of_parameter": "22",
+      "name_of_parameter": "X4",
+      "measurement_of_parameter": "ум. од.",
+      "description_of_parameter": "мін. значення вентиляційного еквіваленту",
+      "id_of_expert": "3"
     },
     {
-      "id_of_parameter": "24",
-      "name_of_parameter": "ΔP",
-      "measurement_of_parameter": "",
+      "id_of_parameter": "23",
+      "name_of_parameter": "?P",
+      "measurement_of_parameter": "грн",
       "description_of_parameter": "Зменшення балансової вартості i-го виду основних фондів виробничого призначення внаслідок повного або часткового руйнування з\\nурахуванням відповідних коефіцієнтів індексації",
       "id_of_expert": "1"
     },
@@ -763,21 +1210,7 @@
       "id_of_expert": "1"
     },
     {
-      "id_of_parameter": "26",
-      "name_of_parameter": "Ka",
-      "measurement_of_parameter": "",
-      "description_of_parameter": "Kоефіцієнт амортизації i-го виду основних фондів виробничого призначення",
-      "id_of_expert": "1"
-    },
-    {
       "id_of_parameter": "28",
-      "name_of_parameter": "Лв",
-      "measurement_of_parameter": "грн",
-      "description_of_parameter": "Ліквідаційна вартість одержаних матеріалів і устаткування",
-      "id_of_expert": "1"
-    },
-    {
-      "id_of_parameter": "29",
       "name_of_parameter": "Лв",
       "measurement_of_parameter": "грн",
       "description_of_parameter": "Ліквідаційна вартість одержаних матеріалів і устаткування",
@@ -807,21 +1240,14 @@
     {
       "id_of_parameter": "33",
       "name_of_parameter": "qi",
-      "measurement_of_parameter": "шт",
-      "description_of_parameter": "Кількість втраченої продукції i-го виду",
-      "id_of_expert": "1"
-    },
-    {
-      "id_of_parameter": "34",
-      "name_of_parameter": "qi",
-      "measurement_of_parameter": "шт",
+      "measurement_of_parameter": "од",
       "description_of_parameter": "Кількість втраченої продукції i-го виду",
       "id_of_expert": "1"
     },
     {
       "id_of_parameter": "35",
       "name_of_parameter": "Ці",
-      "measurement_of_parameter": "шт",
+      "measurement_of_parameter": "од",
       "description_of_parameter": "Середня оптова ціна i-го виду сільськогосподарської продукції",
       "id_of_expert": "1"
     },
@@ -847,13 +1273,6 @@
       "id_of_expert": "1"
     },
     {
-      "id_of_parameter": "39",
-      "name_of_parameter": "Ці",
-      "measurement_of_parameter": "грн",
-      "description_of_parameter": "Прогностична середня оптова ціна i-го виду\\nсільськогосподарської продукції в регіоні на час після збирання врожаю",
-      "id_of_expert": "1"
-    },
-    {
       "id_of_parameter": "40",
       "name_of_parameter": "Зі(дод)",
       "measurement_of_parameter": "грн",
@@ -865,13 +1284,6 @@
       "name_of_parameter": "Цi(сер)",
       "measurement_of_parameter": "грн",
       "description_of_parameter": "Середня оптова ціна одиниці i-ї сировини, матеріалів та напівфабрикатів на момент виникнення втрат",
-      "id_of_expert": "1"
-    },
-    {
-      "id_of_parameter": "42",
-      "name_of_parameter": "qi",
-      "measurement_of_parameter": "шт",
-      "description_of_parameter": "Обсяг втрачених сировини, матеріалів, напівфабрикатів.",
       "id_of_expert": "1"
     },
     {
@@ -1108,7 +1520,7 @@
     {
       "id_of_parameter": "84",
       "name_of_parameter": "Вд",
-      "measurement_of_parameter": "р",
+      "measurement_of_parameter": "рік",
       "description_of_parameter": "Вік дитини",
       "id_of_expert": "1"
     },
@@ -1227,7 +1639,7 @@
     {
       "id_of_parameter": "102",
       "name_of_parameter": "Н",
-      "measurement_of_parameter": "",
+      "measurement_of_parameter": "грн/га",
       "description_of_parameter": "Норматив збитків для груп лісів по областях",
       "id_of_expert": "1"
     },
@@ -1255,7 +1667,7 @@
     {
       "id_of_parameter": "106",
       "name_of_parameter": "Н",
-      "measurement_of_parameter": "",
+      "measurement_of_parameter": "грн/га",
       "description_of_parameter": "Норматив збитків для груп лісів за регіонами України",
       "id_of_expert": "1"
     },
@@ -1269,14 +1681,14 @@
     {
       "id_of_parameter": "108",
       "name_of_parameter": "Н1",
-      "measurement_of_parameter": "",
+      "measurement_of_parameter": "грн/га",
       "description_of_parameter": "Норматив збитків до шкідливого впливу",
       "id_of_expert": "1"
     },
     {
       "id_of_parameter": "109",
       "name_of_parameter": "Н2",
-      "measurement_of_parameter": "",
+      "measurement_of_parameter": "грн/га",
       "description_of_parameter": "Норматив збитків після шкідливого впливу",
       "id_of_expert": "1"
     },
@@ -1293,6 +1705,356 @@
       "measurement_of_parameter": "га",
       "description_of_parameter": "Площа лісової ділянки, що зазнала шкідливого впливу",
       "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "112",
+      "name_of_parameter": "N",
+      "measurement_of_parameter": "кг",
+      "description_of_parameter": "Прямі збитки рибного господарства\\n",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "113",
+      "name_of_parameter": "N1",
+      "measurement_of_parameter": "кг",
+      "description_of_parameter": "Збитки від втрати потомства у рибному господарстві",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "114",
+      "name_of_parameter": "N2",
+      "measurement_of_parameter": "кг",
+      "description_of_parameter": "Збитки від загибелі кормових організмів(планктон)",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "115",
+      "name_of_parameter": "N3",
+      "measurement_of_parameter": "кг",
+      "description_of_parameter": "Збитки від загибелі кормових організмів(бентос)",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "116",
+      "name_of_parameter": "N4",
+      "measurement_of_parameter": "кг",
+      "description_of_parameter": "Збитки від втрат нерестовищ",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "117",
+      "name_of_parameter": "N5",
+      "measurement_of_parameter": "кг",
+      "description_of_parameter": "Збитки від втрати потомства",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "118",
+      "name_of_parameter": "П",
+      "measurement_of_parameter": "од/м^2",
+      "description_of_parameter": "Середня кількість загиблої риби",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "119",
+      "name_of_parameter": "S",
+      "measurement_of_parameter": "м^2",
+      "description_of_parameter": "Площа негативного впливу пошкодження, кв. метрів",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "120",
+      "name_of_parameter": "М",
+      "measurement_of_parameter": "кг",
+      "description_of_parameter": "Середня маса дорослої особини",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "121",
+      "name_of_parameter": "П1",
+      "measurement_of_parameter": "од/м^2",
+      "description_of_parameter": "Середня кількість загиблих личинок",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "122",
+      "name_of_parameter": "К1",
+      "measurement_of_parameter": "%",
+      "description_of_parameter": "Коефіцієнт промислового повернення від личинок",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "123",
+      "name_of_parameter": "П2",
+      "measurement_of_parameter": "од/м^2",
+      "description_of_parameter": "Середня кількість загиблої ікри",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "124",
+      "name_of_parameter": "К2",
+      "measurement_of_parameter": "%",
+      "description_of_parameter": "Коефіцієнт промислового повернення від ікри",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "125",
+      "name_of_parameter": "П",
+      "measurement_of_parameter": "од",
+      "description_of_parameter": "Кількість загиблої риби",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "126",
+      "name_of_parameter": "Z",
+      "measurement_of_parameter": "%",
+      "description_of_parameter": "Частка самок",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "127",
+      "name_of_parameter": "Q",
+      "measurement_of_parameter": "тис. од ікринок",
+      "description_of_parameter": "Cередня плодючість самки",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "128",
+      "name_of_parameter": "С",
+      "measurement_of_parameter": "разів",
+      "description_of_parameter": "Кратність нересту",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "129",
+      "name_of_parameter": "К",
+      "measurement_of_parameter": "%",
+      "description_of_parameter": "Коефіцієнт промислового повернення від ікри",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "130",
+      "name_of_parameter": "М",
+      "measurement_of_parameter": "кг",
+      "description_of_parameter": "Середня маса дорослої особини",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "131",
+      "name_of_parameter": "S",
+      "measurement_of_parameter": "м^2",
+      "description_of_parameter": "Площа пошкодження",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "133",
+      "name_of_parameter": "Н",
+      "measurement_of_parameter": "м",
+      "description_of_parameter": "Глибина водойми",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "134",
+      "name_of_parameter": "П",
+      "measurement_of_parameter": "гр/м^3",
+      "description_of_parameter": "Середня концентрація кормових організмів",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "135",
+      "name_of_parameter": "Р/В",
+      "measurement_of_parameter": "",
+      "description_of_parameter": "Коефіцієнт переведення біомаси кормових організмів у продукцію",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "136",
+      "name_of_parameter": "К1",
+      "measurement_of_parameter": "%",
+      "description_of_parameter": "Показник гранично можливого використання\\nкормової бази риб",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "137",
+      "name_of_parameter": "К2",
+      "measurement_of_parameter": "%",
+      "description_of_parameter": "Кормовий коефіцієнт для переведення продукції кормових організмів у рибопродукцію",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "138",
+      "name_of_parameter": "S",
+      "measurement_of_parameter": "м^2",
+      "description_of_parameter": "Площа пошкодження",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "139",
+      "name_of_parameter": "П",
+      "measurement_of_parameter": "гр/м^2",
+      "description_of_parameter": "Середня концентрація кормових організмів",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "140",
+      "name_of_parameter": "Р/В",
+      "measurement_of_parameter": "",
+      "description_of_parameter": "Коефіцієнт переведення біомаси кормових організмів у продукцію",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "141",
+      "name_of_parameter": "К1",
+      "measurement_of_parameter": "%",
+      "description_of_parameter": "Показник гранично можливого використання\\nкормової бази риб",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "142",
+      "name_of_parameter": "К2",
+      "measurement_of_parameter": "%",
+      "description_of_parameter": "Кормовий коефіцієнт для переведення продукції кормових організмів у рибопродукцію",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "143",
+      "name_of_parameter": "S",
+      "measurement_of_parameter": "га",
+      "description_of_parameter": "Площа пошкодження",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "144",
+      "name_of_parameter": "Р",
+      "measurement_of_parameter": "кг/га",
+      "description_of_parameter": "Середня рибопродуктивність нерестовищ за промисловим поверненням",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "145",
+      "name_of_parameter": "S",
+      "measurement_of_parameter": "га",
+      "description_of_parameter": "Площа пошкодження",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "146",
+      "name_of_parameter": "П",
+      "measurement_of_parameter": "од/га",
+      "description_of_parameter": "Кількість плідників на нерестовищах",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "148",
+      "name_of_parameter": "Q",
+      "measurement_of_parameter": "тис. од",
+      "description_of_parameter": "Середня плодючість самки",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "149",
+      "name_of_parameter": "С",
+      "measurement_of_parameter": "разів",
+      "description_of_parameter": "Кратність нересту",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "150",
+      "name_of_parameter": "К",
+      "measurement_of_parameter": "%",
+      "description_of_parameter": "Коефіцієнт промислового повернення від ікри",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "151",
+      "name_of_parameter": "М",
+      "measurement_of_parameter": "кг",
+      "description_of_parameter": "Середня маса дорослої особини",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "152",
+      "name_of_parameter": "Т",
+      "measurement_of_parameter": "",
+      "description_of_parameter": "Термін, необхідний для відновлення рекреаційної зони",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "153",
+      "name_of_parameter": "П",
+      "measurement_of_parameter": "",
+      "description_of_parameter": "Прибуток у цілому від діяльності установи за одиницю розрахункового терміну на одному об`єкті рекреаційної зони",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "154",
+      "name_of_parameter": "Зр",
+      "measurement_of_parameter": "грн",
+      "description_of_parameter": "Сума збитків об`єктів рекреаційної зони антропогенного впливу",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "155",
+      "name_of_parameter": "Рп",
+      "measurement_of_parameter": "грн",
+      "description_of_parameter": "Витрати на відновлення ресурсів природного\\nпоходження",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "156",
+      "name_of_parameter": "Рс",
+      "measurement_of_parameter": "грн",
+      "description_of_parameter": "Витрати на відновлення ресурсів антропогенного\\nпоходження",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "157",
+      "name_of_parameter": "Пз",
+      "measurement_of_parameter": "грн",
+      "description_of_parameter": "Сума витрат на відновлення природного стану об`єкта природно-заповідного фонду",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "158",
+      "name_of_parameter": "Рз",
+      "measurement_of_parameter": "грн",
+      "description_of_parameter": "Недоотримані надходження від рекреаційної, наукової, природоохоронної, туристсько-\\nекскурсійної та іншої діяльності установи природно-заповідного фонду",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "159",
+      "name_of_parameter": "Ап",
+      "measurement_of_parameter": "грн",
+      "description_of_parameter": "Витрати на експертизу екологічної та ландшафтної структури об`єкта природно-заповідного фонду",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "160",
+      "name_of_parameter": "Анс",
+      "measurement_of_parameter": "грн",
+      "description_of_parameter": "Витрати на експертизу змін стану біогеоценозів об`єкта природно-заповідного фонду, що постраждав внаслідок антропогенного впливу",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "161",
+      "name_of_parameter": "І",
+      "measurement_of_parameter": "грн",
+      "description_of_parameter": "Сума збитків, заподіяних біогеоценозам за\\nокремими складовими збитків ",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "162",
+      "name_of_parameter": "Qi",
+      "measurement_of_parameter": "грн",
+      "description_of_parameter": "Прибуток i-ї установи природно-заповідного фонду до антропогенного впливу",
+      "id_of_expert": "1"
+    },
+    {
+      "id_of_parameter": "163",
+      "name_of_parameter": "Qi(п)",
+      "measurement_of_parameter": "грн",
+      "description_of_parameter": "Прибуток i-ї установи природно-заповідного фонду після антропогенного впливу",
+      "id_of_expert": "1"
     }
   ],
   "formulas": [
@@ -1304,11 +2066,25 @@
       "measurement_of_formula": "грн"
     },
     {
+      "id_of_formula": "1",
+      "name_of_formula": "ОСТЖ",
+      "description_of_formula": "Оцінка середньої тривалості життя",
+      "id_of_expert": "3",
+      "measurement_of_formula": "ум. од."
+    },
+    {
       "id_of_formula": "2",
       "name_of_formula": "Кп",
       "description_of_formula": "Баланс підприємства",
       "id_of_expert": "1",
       "measurement_of_formula": "грн"
+    },
+    {
+      "id_of_formula": "2",
+      "name_of_formula": "ОСТЖ(2)",
+      "description_of_formula": "Оцінка середньої тривалості життя(2)",
+      "id_of_expert": "3",
+      "measurement_of_formula": "ум. од."
     },
     {
       "id_of_formula": "3",
@@ -1318,11 +2094,25 @@
       "measurement_of_formula": "грн"
     },
     {
+      "id_of_formula": "3",
+      "name_of_formula": "ГІМ",
+      "description_of_formula": "ПМ гострий інфаркт міокарда",
+      "id_of_expert": "3",
+      "measurement_of_formula": "ум. од."
+    },
+    {
       "id_of_formula": "4",
       "name_of_formula": "Пвс",
       "description_of_formula": "Податок за викид відходів у атмосферу",
       "id_of_expert": "1",
       "measurement_of_formula": "грн"
+    },
+    {
+      "id_of_formula": "4",
+      "name_of_formula": "ХЦВП",
+      "description_of_formula": "ПМ хронічна цереброваскулярна патологія",
+      "id_of_expert": "3",
+      "measurement_of_formula": "ум. од."
     },
     {
       "id_of_formula": "5",
@@ -1332,11 +2122,25 @@
       "measurement_of_formula": "грн"
     },
     {
+      "id_of_formula": "5",
+      "name_of_formula": "МІ",
+      "description_of_formula": "ПМ мозковий інсульт",
+      "id_of_expert": "3",
+      "measurement_of_formula": "ум. од."
+    },
+    {
       "id_of_formula": "6",
       "name_of_formula": "Прв",
       "description_of_formula": "Податок за скид відходів у грунти",
       "id_of_expert": "1",
       "measurement_of_formula": "грн"
+    },
+    {
+      "id_of_formula": "6",
+      "name_of_formula": "БВ(ч)",
+      "description_of_formula": "Біологічний вік людини(ч)",
+      "id_of_expert": "3",
+      "measurement_of_formula": "роки"
     },
     {
       "id_of_formula": "7",
@@ -1346,11 +2150,25 @@
       "measurement_of_formula": "грн"
     },
     {
+      "id_of_formula": "7",
+      "name_of_formula": "БВ(ж)",
+      "description_of_formula": "Біологічний вік людини(ж)",
+      "id_of_expert": "3",
+      "measurement_of_formula": "роки"
+    },
+    {
       "id_of_formula": "8",
       "name_of_formula": "Сіф",
       "description_of_formula": "Сума пофакторних збитків",
       "id_of_expert": "1",
       "measurement_of_formula": "грн"
+    },
+    {
+      "id_of_formula": "8",
+      "name_of_formula": "НБВ(ч)",
+      "description_of_formula": "Належний біологічний вік(ч)",
+      "id_of_expert": "3",
+      "measurement_of_formula": "роки"
     },
     {
       "id_of_formula": "9",
@@ -1360,6 +2178,13 @@
       "measurement_of_formula": "грн"
     },
     {
+      "id_of_formula": "9",
+      "name_of_formula": "НБВ(ж)",
+      "description_of_formula": "Належний біологічний вік(ж)",
+      "id_of_expert": "3",
+      "measurement_of_formula": "роки"
+    },
+    {
       "id_of_formula": "10",
       "name_of_formula": "Нр",
       "description_of_formula": "Збиток від втрати і життя і здоров`я населення",
@@ -1367,11 +2192,25 @@
       "measurement_of_formula": "грн"
     },
     {
+      "id_of_formula": "10",
+      "name_of_formula": "ФВ ССС(ж)",
+      "description_of_formula": "Функціональний вік серцево-судинної с-ми(ж)",
+      "id_of_expert": "3",
+      "measurement_of_formula": "роки"
+    },
+    {
       "id_of_formula": "11",
       "name_of_formula": "Втрр",
       "description_of_formula": "Втрати від вибуття трудових ресурсів з виробництва",
       "id_of_expert": "1",
       "measurement_of_formula": "грн"
+    },
+    {
+      "id_of_formula": "11",
+      "name_of_formula": "ФВ ССС(ч)",
+      "description_of_formula": "Функціональний вік серцево-судинної с-ми(ч)",
+      "id_of_expert": "3",
+      "measurement_of_formula": "роки"
     },
     {
       "id_of_formula": "12",
@@ -1519,110 +2358,119 @@
       "description_of_formula": "Збитки від пошкодження лісів у разі переведення лісів у менш цінну групу ",
       "id_of_expert": "1",
       "measurement_of_formula": "грн"
+    },
+    {
+      "id_of_formula": "33",
+      "name_of_formula": "Р(р/г)",
+      "description_of_formula": "Збитки рибного господарства",
+      "id_of_expert": "1",
+      "measurement_of_formula": "кг"
+    },
+    {
+      "id_of_formula": "34",
+      "name_of_formula": "N",
+      "description_of_formula": "Прямі збитки рибного господарства\\n",
+      "id_of_expert": "1",
+      "measurement_of_formula": "кг"
+    },
+    {
+      "id_of_formula": "35",
+      "name_of_formula": "N1",
+      "description_of_formula": "Збитки від втрати потомства у рибному господарстві\\n",
+      "id_of_expert": "1",
+      "measurement_of_formula": "кг"
+    },
+    {
+      "id_of_formula": "36",
+      "name_of_formula": "N2",
+      "description_of_formula": "Збитки від загибелі кормових організмів(планктон)",
+      "id_of_expert": "1",
+      "measurement_of_formula": "кг"
+    },
+    {
+      "id_of_formula": "37",
+      "name_of_formula": "N3",
+      "description_of_formula": "Збитки від загибелі кормових організмів(бентос)",
+      "id_of_expert": "1",
+      "measurement_of_formula": "кг"
+    },
+    {
+      "id_of_formula": "38",
+      "name_of_formula": "N4",
+      "description_of_formula": "Збитки від втрат нерестовищ",
+      "id_of_expert": "1",
+      "measurement_of_formula": "кг"
+    },
+    {
+      "id_of_formula": "39",
+      "name_of_formula": "N5",
+      "description_of_formula": "Збитки від втрати потомства",
+      "id_of_expert": "1",
+      "measurement_of_formula": "кг"
+    },
+    {
+      "id_of_formula": "40",
+      "name_of_formula": "Ррек",
+      "description_of_formula": "Розрахунок збитків від наслідків негативного впливу для одного об\\'єкта",
+      "id_of_expert": "1",
+      "measurement_of_formula": "грн"
+    },
+    {
+      "id_of_formula": "41",
+      "name_of_formula": "Ррек",
+      "description_of_formula": "Загальні збитки у рекреаційному центрі, що включає декілька об`єктів та використовує певний обсяг природних ресурсів і ресурсів антропогенного походження рекреаційної зони",
+      "id_of_expert": "1",
+      "measurement_of_formula": "грн"
+    },
+    {
+      "id_of_formula": "42",
+      "name_of_formula": "Рпзф",
+      "description_of_formula": "Загальні економічні втрати об`єкта природно-заповідного фонду від наслідків антропогенного впливу",
+      "id_of_expert": "1",
+      "measurement_of_formula": "грн"
+    },
+    {
+      "id_of_formula": "43",
+      "name_of_formula": "Пз",
+      "description_of_formula": "Сума витрат на відновлення природного стану об`єкта природно-заповідного фонду",
+      "id_of_expert": "1",
+      "measurement_of_formula": "грн"
+    },
+    {
+      "id_of_formula": "44",
+      "name_of_formula": "Рз",
+      "description_of_formula": "Недоотримані надходження від рекреаційної, наукової, природоохоронної, туристсько-\\nекскурсійної та іншої діяльності установи природно-заповідного фонду",
+      "id_of_expert": "1",
+      "measurement_of_formula": "грн"
     }
   ],
   "issues": [
     {
-      "issue_id": "1",
-      "name": "Ploho",
-      "description": "qwe",
-      "creation_date": "2018-01-23 13:59:30"
-    },
-    {
-      "issue_id": "2",
-      "name": "Ochen Ploho",
-      "description": "ewq",
-      "creation_date": "2018-01-23 13:59:30"
-    },
-    {
-      "issue_id": "3",
-      "name": "Хорошо",
-      "description": "все будет хорошо",
-      "creation_date": "2018-01-23 14:16:25"
-    },
-    {
-      "issue_id": "4",
-      "name": "asdasd",
-      "description": "asdasd",
-      "creation_date": "2018-01-23 14:21:28"
-    },
-    {
-      "issue_id": "9",
-      "name": "asd",
-      "description": "sd",
-      "creation_date": "2018-02-05 09:39:42"
-    },
-    {
-      "issue_id": "10",
-      "name": "123",
-      "description": "111",
-      "creation_date": "2018-02-11 13:26:35"
+      "issue_id": "12",
+      "name": "Княжичі",
+      "description": "Забруднення водоймища у с. Княжичі",
+      "creation_date": "2018-04-19 08:42:12"
     }
   ],
   "parameters_value": [
     {
       "calculation_number": "1",
-      "parameter_value": "1",
+      "parameter_value": "0",
       "index_of_parameter": "0"
     },
     {
       "calculation_number": "1",
-      "parameter_value": "2",
+      "parameter_value": "0",
       "index_of_parameter": "0"
     },
     {
       "calculation_number": "1",
-      "parameter_value": "3",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "1",
-      "parameter_value": "1",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "1",
-      "parameter_value": "2",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "1",
-      "parameter_value": "3",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "1",
-      "parameter_value": "1",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "1",
-      "parameter_value": "2",
+      "parameter_value": "0",
       "index_of_parameter": "0"
     },
     {
       "calculation_number": "1",
       "parameter_value": "4",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "1",
-      "parameter_value": "0.5",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "1",
-      "parameter_value": "3",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "1",
-      "parameter_value": "2",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "1",
-      "parameter_value": "2",
       "index_of_parameter": "0"
     },
     {
@@ -1642,253 +2490,405 @@
     },
     {
       "calculation_number": "2",
-      "parameter_value": "3",
+      "parameter_value": "2",
       "index_of_parameter": "0"
     },
     {
       "calculation_number": "2",
-      "parameter_value": "3",
+      "parameter_value": "2",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "1",
       "index_of_parameter": "1"
     },
     {
       "calculation_number": "2",
-      "parameter_value": "1221",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "2",
-      "parameter_value": "1322",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "2",
-      "parameter_value": "1441",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "2",
-      "parameter_value": "131",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "2",
-      "parameter_value": "13",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "2",
-      "parameter_value": "3312",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "2",
-      "parameter_value": "534",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "2",
-      "parameter_value": "32",
-      "index_of_parameter": "1"
-    },
-    {
-      "calculation_number": "2",
-      "parameter_value": "41",
+      "parameter_value": "3",
       "index_of_parameter": "2"
     },
     {
       "calculation_number": "2",
-      "parameter_value": "12",
-      "index_of_parameter": "3"
-    },
-    {
-      "calculation_number": "2",
-      "parameter_value": "23",
+      "parameter_value": "0",
       "index_of_parameter": "1"
     },
     {
       "calculation_number": "2",
-      "parameter_value": "21",
+      "parameter_value": "0",
       "index_of_parameter": "2"
     },
     {
       "calculation_number": "2",
-      "parameter_value": "4",
-      "index_of_parameter": "3"
-    },
-    {
-      "calculation_number": "2",
-      "parameter_value": "1",
+      "parameter_value": "2",
       "index_of_parameter": "1"
     },
     {
       "calculation_number": "2",
-      "parameter_value": "3",
+      "parameter_value": "4",
+      "index_of_parameter": "2"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "0",
+      "index_of_parameter": "1"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "0",
       "index_of_parameter": "2"
     },
     {
       "calculation_number": "2",
       "parameter_value": "5",
-      "index_of_parameter": "3"
+      "index_of_parameter": "0"
     },
     {
       "calculation_number": "2",
-      "parameter_value": "2",
-      "index_of_parameter": "1"
+      "parameter_value": "0",
+      "index_of_parameter": "0"
     },
     {
       "calculation_number": "2",
-      "parameter_value": "4",
-      "index_of_parameter": "2"
+      "parameter_value": "2920920",
+      "index_of_parameter": "0"
     },
     {
       "calculation_number": "2",
-      "parameter_value": "6",
-      "index_of_parameter": "3"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "1",
-      "index_of_parameter": "3"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "2",
-      "index_of_parameter": "4"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "3",
-      "index_of_parameter": "5"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "100",
+      "parameter_value": "0.02",
       "index_of_parameter": "0"
     },
     {
-      "calculation_number": "3",
-      "parameter_value": "14",
+      "calculation_number": "2",
+      "parameter_value": "18",
       "index_of_parameter": "0"
     },
     {
-      "calculation_number": "3",
-      "parameter_value": "1416",
+      "calculation_number": "2",
+      "parameter_value": "65",
       "index_of_parameter": "0"
     },
     {
-      "calculation_number": "3",
-      "parameter_value": "1",
-      "index_of_parameter": "1"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "2",
-      "index_of_parameter": "1"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "3",
-      "index_of_parameter": "1"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "4",
-      "index_of_parameter": "1"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "5",
-      "index_of_parameter": "1"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "6",
-      "index_of_parameter": "1"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "7",
-      "index_of_parameter": "1"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "8",
-      "index_of_parameter": "1"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "1",
-      "index_of_parameter": "1"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "3",
-      "index_of_parameter": "2"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "2",
-      "index_of_parameter": "1"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "4",
-      "index_of_parameter": "2"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "1",
-      "index_of_parameter": "1"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "3",
-      "index_of_parameter": "2"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "5",
-      "index_of_parameter": "3"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "2",
-      "index_of_parameter": "1"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "4",
-      "index_of_parameter": "2"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "6",
-      "index_of_parameter": "3"
-    },
-    {
-      "calculation_number": "3",
-      "parameter_value": "41200",
+      "calculation_number": "2",
+      "parameter_value": "0.17",
       "index_of_parameter": "0"
+    }
+  ],
+  "point_poligon": [
+    {
+      "longitude": "48.0633965377621",
+      "Id_of_poligon": "5",
+      "order": "3"
     },
     {
-      "calculation_number": "3",
-      "parameter_value": "0.03",
-      "index_of_parameter": "0"
+      "longitude": "48.2539411446343",
+      "Id_of_poligon": "5",
+      "order": "1"
     },
     {
-      "calculation_number": "3",
-      "parameter_value": "20",
-      "index_of_parameter": "0"
+      "longitude": "48.5747899109288",
+      "Id_of_poligon": "5",
+      "order": "2"
     },
     {
-      "calculation_number": "3",
-      "parameter_value": "60",
-      "index_of_parameter": "0"
+      "longitude": "48.86101531982422",
+      "Id_of_poligon": "1",
+      "order": "2"
     },
     {
-      "calculation_number": "3",
-      "parameter_value": "0.025",
-      "index_of_parameter": "0"
+      "longitude": "48.86372756958008",
+      "Id_of_poligon": "1",
+      "order": "3"
+    },
+    {
+      "longitude": "48.863868713378906",
+      "Id_of_poligon": "1",
+      "order": "1"
+    },
+    {
+      "longitude": "48.86638259887695",
+      "Id_of_poligon": "1",
+      "order": "0"
+    },
+    {
+      "longitude": "49.1242192485914",
+      "Id_of_poligon": "7",
+      "order": "2"
+    },
+    {
+      "longitude": "49.6320619412871",
+      "Id_of_poligon": "4",
+      "order": "6"
+    },
+    {
+      "longitude": "49.7031677201799",
+      "Id_of_poligon": "3",
+      "order": "3"
+    },
+    {
+      "longitude": "49.7031677201799",
+      "Id_of_poligon": "4",
+      "order": "3"
+    },
+    {
+      "longitude": "49.9441503516455",
+      "Id_of_poligon": "3",
+      "order": "2"
+    },
+    {
+      "longitude": "49.9441503516455",
+      "Id_of_poligon": "4",
+      "order": "2"
+    },
+    {
+      "longitude": "50.0006777572363",
+      "Id_of_poligon": "2",
+      "order": "3"
+    },
+    {
+      "longitude": "50.0077390146369",
+      "Id_of_poligon": "7",
+      "order": "3"
+    },
+    {
+      "longitude": "50.2261237443714",
+      "Id_of_poligon": "4",
+      "order": "5"
+    },
+    {
+      "longitude": "50.2612538275847",
+      "Id_of_poligon": "2",
+      "order": "4"
+    },
+    {
+      "longitude": "50.3594803462987",
+      "Id_of_poligon": "3",
+      "order": "4"
+    },
+    {
+      "longitude": "50.3594803462987",
+      "Id_of_poligon": "4",
+      "order": "4"
+    },
+    {
+      "longitude": "50.3664887627383",
+      "Id_of_poligon": "3",
+      "order": "1"
+    },
+    {
+      "longitude": "50.3664887627383",
+      "Id_of_poligon": "4",
+      "order": "1"
+    },
+    {
+      "longitude": "50.3857565720208",
+      "Id_of_poligon": "6",
+      "order": "3"
+    },
+    {
+      "longitude": "50.3896967507881",
+      "Id_of_poligon": "6",
+      "order": "1"
+    },
+    {
+      "longitude": "50.40895513434",
+      "Id_of_poligon": "6",
+      "order": "2"
+    },
+    {
+      "longitude": "50.6111317133236",
+      "Id_of_poligon": "2",
+      "order": "2"
+    },
+    {
+      "longitude": "50.6250730634143",
+      "Id_of_poligon": "7",
+      "order": "1"
+    },
+    {
+      "longitude": "50.6390102812587",
+      "Id_of_poligon": "2",
+      "order": "1"
+    }
+  ],
+  "poligon": [
+    {
+      "Id_of_poligon": "1",
+      "brush_color_r": "255",
+      "bruch_color_g": "10",
+      "brush_color_b": "10",
+      "brush_alfa": "100",
+      "line_collor_r": "255",
+      "line_color_g": "255",
+      "line_color_b": "255",
+      "line_alfa": "255",
+      "line_thickness": "1",
+      "name": "one",
+      "id_of_expert": "0"
+    },
+    {
+      "Id_of_poligon": "2",
+      "brush_color_r": "250",
+      "bruch_color_g": "250",
+      "brush_color_b": "250",
+      "brush_alfa": "250",
+      "line_collor_r": "0",
+      "line_color_g": "250",
+      "line_color_b": "2",
+      "line_alfa": "21",
+      "line_thickness": "2",
+      "name": "Test1",
+      "id_of_expert": "1"
+    },
+    {
+      "Id_of_poligon": "3",
+      "brush_color_r": "250",
+      "bruch_color_g": "250",
+      "brush_color_b": "250",
+      "brush_alfa": "250",
+      "line_collor_r": "0",
+      "line_color_g": "250",
+      "line_color_b": "2",
+      "line_alfa": "21",
+      "line_thickness": "2",
+      "name": "Test1",
+      "id_of_expert": "1"
+    },
+    {
+      "Id_of_poligon": "4",
+      "brush_color_r": "250",
+      "bruch_color_g": "250",
+      "brush_color_b": "250",
+      "brush_alfa": "250",
+      "line_collor_r": "0",
+      "line_color_g": "250",
+      "line_color_b": "2",
+      "line_alfa": "21",
+      "line_thickness": "2",
+      "name": "Test1",
+      "id_of_expert": "1"
+    },
+    {
+      "Id_of_poligon": "5",
+      "brush_color_r": "250",
+      "bruch_color_g": "250",
+      "brush_color_b": "250",
+      "brush_alfa": "250",
+      "line_collor_r": "0",
+      "line_color_g": "250",
+      "line_color_b": "2",
+      "line_alfa": "21",
+      "line_thickness": "2",
+      "name": "Test1",
+      "id_of_expert": "1"
+    },
+    {
+      "Id_of_poligon": "6",
+      "brush_color_r": "250",
+      "bruch_color_g": "250",
+      "brush_color_b": "250",
+      "brush_alfa": "250",
+      "line_collor_r": "0",
+      "line_color_g": "250",
+      "line_color_b": "2",
+      "line_alfa": "21",
+      "line_thickness": "2",
+      "name": "Test1",
+      "id_of_expert": "3"
+    },
+    {
+      "Id_of_poligon": "7",
+      "brush_color_r": "250",
+      "bruch_color_g": "250",
+      "brush_color_b": "250",
+      "brush_alfa": "250",
+      "line_collor_r": "0",
+      "line_color_g": "250",
+      "line_color_b": "2",
+      "line_alfa": "21",
+      "line_thickness": "2",
+      "name": "Test1",
+      "id_of_expert": "3"
+    }
+  ],
+  "poligon_calculations_description": [
+    {
+      "id_poligon": "2",
+      "calculations_description_number": "2",
+      "id_of_formula": "15"
+    },
+    {
+      "id_poligon": "3",
+      "calculations_description_number": "2",
+      "id_of_formula": "16"
+    },
+    {
+      "id_poligon": "4",
+      "calculations_description_number": "2",
+      "id_of_formula": "15"
+    },
+    {
+      "id_poligon": "5",
+      "calculations_description_number": "1",
+      "id_of_formula": "1"
+    },
+    {
+      "id_poligon": "6",
+      "calculations_description_number": "2",
+      "id_of_formula": "0"
+    },
+    {
+      "id_poligon": "7",
+      "calculations_description_number": "1",
+      "id_of_formula": "6"
+    }
+  ],
+  "resource": [
+    {
+      "resource_id": "4",
+      "name": "Гроші",
+      "description": "Гривні",
+      "units": "грн",
+      "price": "1"
+    }
+  ],
+  "template_resource": [],
+  "user": [
+    {
+      "user_name": "3",
+      "password": "3",
+      "id_of_expert": "3",
+      "id_of_user": "1"
+    },
+    {
+      "user_name": "0",
+      "password": "0",
+      "id_of_expert": "0",
+      "id_of_user": "2"
+    },
+    {
+      "user_name": "1",
+      "password": "1",
+      "id_of_expert": "1",
+      "id_of_user": "3"
+    },
+    {
+      "user_name": "2",
+      "password": "2",
+      "id_of_expert": "2",
+      "id_of_user": "4"
+    },
+    {
+      "user_name": "5",
+      "password": "5",
+      "id_of_expert": "5",
+      "id_of_user": "5"
+    },
+    {
+      "user_name": "4",
+      "password": "4",
+      "id_of_expert": "4",
+      "id_of_user": "6"
     }
   ]
 }

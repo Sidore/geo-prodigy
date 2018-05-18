@@ -74,6 +74,7 @@
 </template>
 <script>
 import d from "../assets/data.json";
+
 export default {
   name: 'google-map',
   props: ['name'],
@@ -124,6 +125,24 @@ export default {
         return this.data.expert.find((ex) => {
           return ex.id_of_expert == id
         }).expert_name;
+      },
+
+      poligonById : function(id) {
+        return this.data.poligon.find((ex) => {
+          return ex.Id_of_poligon == id
+        });
+      },
+
+      poligonPointsById : function(id) {
+        let a = this.data.point_poligon.filter((ex) => {
+          return ex.Id_of_poligon == id
+        });
+
+        a.sort((s1,s2) => {
+          return s1.order > s2.order ? 1 : -1;
+        });
+
+        return a;
       }
   },
   created(){
@@ -220,6 +239,34 @@ export default {
         });
         bermudaTriangle.setMap(this.map);
     })
+
+    this.data.poligon.forEach((poligon) => {
+
+       var triangleCoords = this.poligonPointsById(poligon.Id_of_poligon).map((cord) => {
+          return {lat: cord.longitude, lng : cord.longitude}
+       });
+    
+
+      var r=poligon.bruch_color_r;
+
+    var g=poligon.bruch_color_g;
+
+    var b=poligon.bruch_color_b;
+
+    var с ='#' + r.toString(16) + g.toString(16) + b.toString(16);
+    var s = '#' + poligon.line_collor_r.toString(16) + poligon.line_collor_g.toString(16) + poligon.line_collor_b.toString(16);
+
+       var bermudaTriangle = new google.maps.Polygon({
+          paths: triangleCoords,
+          strokeColor: s,
+          strokeOpacity: 0.8,
+          strokeWeight: 2,
+          fillColor: с,
+          fillOpacity: 0.35
+        });
+        bermudaTriangle.setMap(this.map);
+
+    });
 
     // console.log(triangleCoords)
     //  [
