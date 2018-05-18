@@ -2,20 +2,20 @@
 <div class="flex col">
     <div id="header" class="flex row">
       <img src="../assets/logo.png" height="40">  
-      Geo Prodigy
+      Веб iнтерфейс еколого-економiчноi системи
     </div>
     <div id="container" class="flex row">
       <div class=" flex col flex-1">
-        <div>
-          <h3 @click="acco.expert = !acco.expert">Experts <span>{{acco.expert ? "-" : "+"}}</span></h3>
+        <div class="cont">
+          <h3 @click="acco.expert = !acco.expert">Експерти <span>{{acco.expert ? "-" : "+"}}</span></h3>
           <ol v-if="acco.expert">
             <li v-for="expert in data.expert" :key="expert.id_of_expert">
               <b>{{expert.expert_name }}</b> ( id : {{ expert.id_of_expert }})
             </li>
           </ol>
         </div>
-        <div>
-          <h3 @click="acco.issues = !acco.issues">Issues <span>{{acco.issues ? "-" : "+"}}</span></h3>
+        <div class="cont">
+          <h3 @click="acco.issues = !acco.issues">Проблемнi зони <span>{{acco.issues ? "-" : "+"}}</span></h3>
           <ol v-if="acco.issues">
             <li v-for="issue in data.issues" :key="issue.issue_id">
               <h4>
@@ -28,8 +28,8 @@
             </li>
           </ol>
         </div>
-        <div>
-          <h3 @click="acco.formulas = !acco.formulas">Formulas <span>{{acco.formulas ? "-" : "+"}}</span></h3>
+        <div class="cont">
+          <h3 @click="acco.formulas = !acco.formulas">Формули <span>{{acco.formulas ? "-" : "+"}}</span></h3>
           <ol v-if="acco.formulas">
             <li v-for="formula in data.formulas" :key="formula.id_of_formula">
               <h4>
@@ -155,8 +155,8 @@ export default {
 
         let a = {
           tile : iss.name,
-          latitude: 51.501527 + Math.random(),
-          longitude: -0.1921837 + + Math.random()
+          latitude: 50.4501,
+          longitude: 30.523400000000038
         };
 
         arr.push(a);
@@ -174,7 +174,8 @@ export default {
     const element = document.getElementById(this.mapName)
     const mapCentre = this.markerCoordinates[0]
     const options = {
-      center: new google.maps.LatLng(mapCentre.latitude, mapCentre.longitude)
+      center: new google.maps.LatLng(mapCentre.latitude, mapCentre.longitude),
+      zoom: 12
     }
     this.map = new google.maps.Map(element, options);
     this.markerCoordinates.forEach((coord) => {
@@ -197,18 +198,18 @@ export default {
         infowindow.open(this.map, marker);
     });
 
-    this.markers.push(marker)
+      this.markers.push(marker)
       this.map.fitBounds(this.bounds.extend(position))
     });
 
     console.log(this.data.issues)
   
-    // var triangleCoords = this.data.issues.map((i) => {
-    //   return {
-    //     lat : i.tooltip.latitude ,
-    //     lng : i.tooltip.longitude
-    //     }
-    // })
+    var triangleCoords = this.data.issues.map((i) => {
+      return {
+        lat : i.tooltip.latitude ,
+        lng : i.tooltip.longitude
+        }
+    })
 
     this.data.issues.forEach((i) => {
        
@@ -243,27 +244,45 @@ export default {
     this.data.poligon.forEach((poligon) => {
 
        var triangleCoords = this.poligonPointsById(poligon.Id_of_poligon).map((cord) => {
-          return {lat: cord.longitude, lng : cord.longitude}
+          return {lat: Number(cord.longitude), lng : Number(cord.longitude)}
        });
+      console.log("poligon",poligon);
+
+    var r= String(poligon.brush_color_r);
+
+    var g= String(poligon.bruch_color_g);
+
+    var b= String(poligon.brush_color_b);
+
+    var r1 = String(poligon.line_collor_r);
+    var g1 = String(poligon.line_color_g);
+    var b1 = String(poligon.line_color_b);
     
+    function componentToHex(c) {
+        var hex = (+c).toString(16);
+        console.log("componentToHex",c,hex);
+        return hex.length == 1 ? "0" + hex : hex;
+    }
 
-      var r=poligon.bruch_color_r;
+    function rgbToHex(r, g, b) {
+        return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+    }
 
-    var g=poligon.bruch_color_g;
+// alert( rgbToHex(0, 51, 255) );
 
-    var b=poligon.bruch_color_b;
-
-    var с ='#' + r.toString(16) + g.toString(16) + b.toString(16);
-    var s = '#' + poligon.line_collor_r.toString(16) + poligon.line_collor_g.toString(16) + poligon.line_collor_b.toString(16);
+    // var с ='#' + r + g + b;
+    // var s = '#' + r1 + g1 + b1;
 
        var bermudaTriangle = new google.maps.Polygon({
           paths: triangleCoords,
-          strokeColor: s,
+          strokeColor: rgbToHex(r1,g1,b1),
           strokeOpacity: 0.8,
           strokeWeight: 2,
-          fillColor: с,
+          fillColor: rgbToHex(r,g,b),
           fillOpacity: 0.35
         });
+
+        console.log(bermudaTriangle);
         bermudaTriangle.setMap(this.map);
 
     });
@@ -290,6 +309,9 @@ export default {
 };
 </script>
 <style scoped>
+
+body {
+}
 .google-map {
   width: 100%;
   height: 600px;
@@ -314,7 +336,7 @@ export default {
 }
 
 #header {
-  background: #eee;
+  background: #fff;
   border-bottom: 1px solid #999;
   padding: 10px;
   align-items: center;
@@ -339,5 +361,13 @@ h3 , h4, p {
 
 h3 {
   cursor: pointer;
+}
+
+.cont {
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px 10px;
+  margin: 10px;
 }
 </style>
