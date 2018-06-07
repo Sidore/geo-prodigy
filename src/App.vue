@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <router-view/>
+    <notifications group="foo" position="bottom right"/>
   </div>
 </template>
 
@@ -25,4 +26,10 @@ body, html {
   margin: 0; 
   padding: 0;
 }
+.vue-notification {
+  padding: 10px;
+  margin: 0 5px 5px;
+ 
+  font-size: 24px;
+  }
 </style>

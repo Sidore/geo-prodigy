@@ -1,20 +1,6 @@
 ﻿{
   "calculations_description": [
     {
-      "calculation_number": "1",
-      "calculation_name": "a1",
-      "description_of_calculation": "b1",
-      "issue_id": "12",
-      "id_of_expert": "1"
-    },
-    {
-      "calculation_number": "1",
-      "calculation_name": "Княжичі (медик)",
-      "description_of_calculation": "b3",
-      "issue_id": "12",
-      "id_of_expert": "3"
-    },
-    {
       "calculation_number": "2",
       "calculation_name": "Княжичі (економіст)",
       "description_of_calculation": "тестетс",
@@ -27,51 +13,125 @@
       "description_of_calculation": "b31",
       "issue_id": "12",
       "id_of_expert": "3"
-    },
-    {
-      "calculation_number": "3",
-      "calculation_name": "",
-      "description_of_calculation": "",
-      "issue_id": "12",
-      "id_of_expert": "1"
     }
   ],
   "calculations_result": [
     {
-      "calculation_number": "1",
-      "date_of_calculation": "2018-05-09 17:09:29",
-      "result": "0",
-      "id_of_expert": "1"
+      "calculation_number": "2",
+      "date_of_calculation": "2018-05-23 11:55:21",
+      "result": "96.627",
+      "id_of_expert": "3",
+      "id_of_formula" : "1"
     },
     {
-      "calculation_number": "1",
-      "date_of_calculation": "2018-05-09 17:04:51",
-      "result": "12",
-      "id_of_expert": "3"
+      "calculation_number": "2",
+      "date_of_calculation": "2018-05-23 11:55:25",
+      "result": "68.4326",
+      "id_of_expert": "3",
+      "id_of_formula" : "2"
+    },
+    {
+      "calculation_number": "2",
+      "date_of_calculation": "2018-05-23 11:55:28",
+      "result": "150.56",
+      "id_of_expert": "3",
+      "id_of_formula" : "3"
+    },
+    {
+      "calculation_number": "2",
+      "date_of_calculation": "2018-05-22 13:32:35",
+      "result": "5260.18171",
+      "id_of_expert": "1",
+      "id_of_formula" : "4"
+      
+    },
+    {
+      "calculation_number": "2",
+      "date_of_calculation": "2018-05-23 11:57:04",
+      "result": "562.96",
+      "id_of_expert": "3",
+      "id_of_formula" : "4"
+      
+    },
+    {
+      "calculation_number": "2",
+      "date_of_calculation": "2018-05-22 13:34:02",
+      "result": "4909.67745",
+      "id_of_expert": "1",
+      "id_of_formula" : "5"
+      
+    },
+    {
+      "calculation_number": "2",
+      "date_of_calculation": "2018-05-23 11:57:08",
+      "result": "713.84",
+      "id_of_expert": "3",
+      "id_of_formula" : "5"
+      
+    },
+    {
+      "calculation_number": "2",
+      "date_of_calculation": "2018-05-22 13:35:43",
+      "result": "7810.884",
+      "id_of_expert": "1",
+      "id_of_formula" : "6"
+      
+    },
+    {
+      "calculation_number": "2",
+      "date_of_calculation": "2018-05-23 11:57:27",
+      "result": "44.64",
+      "id_of_expert": "3",
+      "id_of_formula" : "6"
+      
     },
     {
       "calculation_number": "2",
       "date_of_calculation": "2018-05-10 16:22:03",
       "result": "1189760.4",
-      "id_of_expert": "1"
+      "id_of_expert": "1",
+      "id_of_formula" : "7"
+      
     },
     {
       "calculation_number": "2",
-      "date_of_calculation": "2018-05-04 13:32:54",
-      "result": "9",
-      "id_of_expert": "1"
+      "date_of_calculation": "2018-05-23 11:57:40",
+      "result": "56.19",
+      "id_of_expert": "3",
+      "id_of_formula" : "7"
+      
     },
     {
       "calculation_number": "2",
-      "date_of_calculation": "2018-05-09 17:04:51",
-      "result": "0",
-      "id_of_expert": "1"
+      "date_of_calculation": "2018-05-23 11:57:45",
+      "result": "53.824",
+      "id_of_expert": "3",
+      "id_of_formula" : "8"
+      
     },
     {
-      "calculation_number": "3",
-      "date_of_calculation": "2018-05-10 16:20:17",
-      "result": "1215014.47",
-      "id_of_expert": "1"
+      "calculation_number": "2",
+      "date_of_calculation": "2018-05-23 11:57:51",
+      "result": "28.339",
+      "id_of_expert": "3",
+      "id_of_formula" : "9"
+      
+    },
+    {
+      "calculation_number": "2",
+      "date_of_calculation": "2018-05-23 11:58:11",
+      "result": "119.1",
+      "id_of_expert": "3",
+      "id_of_formula" : "10"
+      
+    },
+    {
+      "calculation_number": "2",
+      "date_of_calculation": "2018-05-23 11:58:18",
+      "result": "138.86",
+      "id_of_expert": "3",
+      "id_of_formula" : "11"
+      
     }
   ],
   "event": [
@@ -83,15 +143,61 @@
       "dm_verification": null,
       "id_of_user": "5",
       "issue_id": "12"
+    },
+    {
+      "event_id": "2",
+      "name": "test",
+      "description": "Опис",
+      "lawyer_vefirication": "0",
+      "dm_verification": null,
+      "id_of_user": "1",
+      "issue_id": "12"
+    },
+    {
+      "event_id": "3",
+      "name": "test2",
+      "description": "Опис",
+      "lawyer_vefirication": null,
+      "dm_verification": null,
+      "id_of_user": "3",
+      "issue_id": "12"
     }
   ],
-  "event_documents": [],
+  "event_documents": [
+    {
+      "event_id": "2",
+      "document_code": "d471410",
+      "description": ""
+    },
+    {
+      "event_id": "2",
+      "document_code": "d471411",
+      "description": ""
+    },
+    {
+      "event_id": "2",
+      "document_code": "d471576",
+      "description": "kh"
+    }
+  ],
   "event_resource": [
     {
       "resource_id": "4",
       "event_id": "1",
       "value": "200",
       "description": "na lechenie"
+    },
+    {
+      "resource_id": "4",
+      "event_id": "2",
+      "value": "123",
+      "description": "Гривні"
+    },
+    {
+      "resource_id": "4",
+      "event_id": "3",
+      "value": "222",
+      "description": "Гривні"
     }
   ],
   "event_template": [],
@@ -1197,7 +1303,7 @@
     },
     {
       "id_of_parameter": "23",
-      "name_of_parameter": "?P",
+      "name_of_parameter": "ΔP",
       "measurement_of_parameter": "грн",
       "description_of_parameter": "Зменшення балансової вартості i-го виду основних фондів виробничого призначення внаслідок повного або часткового руйнування з\\nурахуванням відповідних коефіцієнтів індексації",
       "id_of_expert": "1"
@@ -2450,6 +2556,24 @@
       "name": "Княжичі",
       "description": "Забруднення водоймища у с. Княжичі",
       "creation_date": "2018-04-19 08:42:12"
+    },
+    {
+      "issue_id": "13",
+      "name": "test",
+      "description": "testdesc",
+      "creation_date": "2018-04-20 08:42:12"
+    }
+  ],
+  "issues_documents": [
+    {
+      "issue_id": "12",
+      "document_code": "d471410",
+      "description": "tretret"
+    },
+    {
+      "issue_id": "13",
+      "document_code": "d471411",
+      "description": "hjhj"
     }
   ],
   "parameters_value": [
@@ -2490,53 +2614,53 @@
     },
     {
       "calculation_number": "2",
-      "parameter_value": "2",
+      "parameter_value": "4",
       "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "2",
-      "parameter_value": "2",
-      "index_of_parameter": "0"
-    },
-    {
-      "calculation_number": "2",
-      "parameter_value": "1",
-      "index_of_parameter": "1"
-    },
-    {
-      "calculation_number": "2",
-      "parameter_value": "3",
-      "index_of_parameter": "2"
-    },
-    {
-      "calculation_number": "2",
-      "parameter_value": "0",
-      "index_of_parameter": "1"
-    },
-    {
-      "calculation_number": "2",
-      "parameter_value": "0",
-      "index_of_parameter": "2"
-    },
-    {
-      "calculation_number": "2",
-      "parameter_value": "2",
-      "index_of_parameter": "1"
     },
     {
       "calculation_number": "2",
       "parameter_value": "4",
-      "index_of_parameter": "2"
+      "index_of_parameter": "0"
     },
     {
       "calculation_number": "2",
-      "parameter_value": "0",
-      "index_of_parameter": "1"
+      "parameter_value": "4",
+      "index_of_parameter": "0"
     },
     {
       "calculation_number": "2",
-      "parameter_value": "0",
-      "index_of_parameter": "2"
+      "parameter_value": "2",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "213",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "4",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "3",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "12",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "6",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "21",
+      "index_of_parameter": "0"
     },
     {
       "calculation_number": "2",
@@ -2545,7 +2669,227 @@
     },
     {
       "calculation_number": "2",
-      "parameter_value": "0",
+      "parameter_value": "1",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "3",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "4",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "1.08",
+      "index_of_parameter": "1"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "1.78",
+      "index_of_parameter": "2"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "0.631",
+      "index_of_parameter": "3"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "13.04",
+      "index_of_parameter": "4"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "13.4",
+      "index_of_parameter": "1"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "9.07",
+      "index_of_parameter": "2"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "4.04",
+      "index_of_parameter": "3"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "2.6",
+      "index_of_parameter": "4"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "2.9",
+      "index_of_parameter": "1"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "1.4",
+      "index_of_parameter": "2"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "2.6",
+      "index_of_parameter": "3"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "2.17",
+      "index_of_parameter": "4"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "42",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "5",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "1291.33",
+      "index_of_parameter": "1"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "751.04",
+      "index_of_parameter": "2"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "1317.81",
+      "index_of_parameter": "3"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "130.15",
+      "index_of_parameter": "4"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "79.14",
+      "index_of_parameter": "1"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "90.89",
+      "index_of_parameter": "2"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "205.4",
+      "index_of_parameter": "3"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "214.79",
+      "index_of_parameter": "4"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "141",
+      "index_of_parameter": "1"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "79.4",
+      "index_of_parameter": "2"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "84.7",
+      "index_of_parameter": "3"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "58.8",
+      "index_of_parameter": "4"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "90",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "40",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "7",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "4",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "8",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "5",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "90",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "80",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "56",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "19",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "12",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "4",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "1",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "5",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "3",
+      "index_of_parameter": "0"
+    },
+    {
+      "calculation_number": "2",
+      "parameter_value": "3",
       "index_of_parameter": "0"
     },
     {
@@ -2577,135 +2921,498 @@
   "point_poligon": [
     {
       "longitude": "48.0633965377621",
+      "latitude": "34.12353515625",
       "Id_of_poligon": "5",
       "order": "3"
     },
     {
+      "latitude": "33.310546875", 
       "longitude": "48.2539411446343",
       "Id_of_poligon": "5",
       "order": "1"
     },
     {
+      "latitude": "34.365234375", 
       "longitude": "48.5747899109288",
       "Id_of_poligon": "5",
       "order": "2"
     },
     {
-      "longitude": "48.86101531982422",
-      "Id_of_poligon": "1",
-      "order": "2"
-    },
-    {
-      "longitude": "48.86372756958008",
-      "Id_of_poligon": "1",
-      "order": "3"
-    },
-    {
-      "longitude": "48.863868713378906",
-      "Id_of_poligon": "1",
-      "order": "1"
-    },
-    {
-      "longitude": "48.86638259887695",
-      "Id_of_poligon": "1",
-      "order": "0"
-    },
-    {
+      "latitude": "35.859375", 
       "longitude": "49.1242192485914",
       "Id_of_poligon": "7",
       "order": "2"
     },
     {
+      "latitude": "32.1240234375",
       "longitude": "49.6320619412871",
       "Id_of_poligon": "4",
       "order": "6"
     },
     {
+      "latitude": "31.376953125", 
       "longitude": "49.7031677201799",
       "Id_of_poligon": "3",
       "order": "3"
     },
     {
+      "latitude": "31.376953125", 
       "longitude": "49.7031677201799",
       "Id_of_poligon": "4",
       "order": "3"
     },
     {
+      "latitude": "30.838623046875", 
       "longitude": "49.9441503516455",
       "Id_of_poligon": "3",
       "order": "2"
     },
     {
+      "latitude": "30.838623046875", 
       "longitude": "49.9441503516455",
       "Id_of_poligon": "4",
       "order": "2"
     },
     {
+      "latitude": "30.574951171875", 
       "longitude": "50.0006777572363",
       "Id_of_poligon": "2",
       "order": "3"
     },
     {
+      "latitude": "33.5302734375", 
       "longitude": "50.0077390146369",
       "Id_of_poligon": "7",
       "order": "3"
     },
     {
+      "latitude": "32.54150390625", 
       "longitude": "50.2261237443714",
       "Id_of_poligon": "4",
       "order": "5"
     },
     {
+      "latitude": "30.157470703125", 
       "longitude": "50.2612538275847",
       "Id_of_poligon": "2",
       "order": "4"
     },
     {
+      "latitude": "31.871337890625", 
       "longitude": "50.3594803462987",
       "Id_of_poligon": "3",
       "order": "4"
     },
     {
+      "latitude": "31.871337890625", 
       "longitude": "50.3594803462987",
       "Id_of_poligon": "4",
       "order": "4"
     },
     {
+      "latitude": "31.26708984375", 
       "longitude": "50.3664887627383",
       "Id_of_poligon": "3",
       "order": "1"
     },
     {
+      "latitude": "31.26708984375", 
       "longitude": "50.3664887627383",
       "Id_of_poligon": "4",
       "order": "1"
     },
     {
+      "latitude": "30.8866882324219", 
       "longitude": "50.3857565720208",
       "Id_of_poligon": "6",
       "order": "3"
     },
     {
+      "latitude": "30.9574127197266", 
       "longitude": "50.3896967507881",
       "Id_of_poligon": "6",
       "order": "1"
     },
     {
+      "latitude": "30.8853149414063", 
       "longitude": "50.40895513434",
       "Id_of_poligon": "6",
       "order": "2"
     },
     {
+      "latitude": "30.8157062530518", 
+      "longitude": "50.4429664463099",
+      "Id_of_poligon": "8",
+      "order": "8"
+    },
+    {
+      "latitude": "30.776481628418", 
+      "longitude": "50.4431850895268",
+      "Id_of_poligon": "8",
+      "order": "9"
+    },
+    {
+      "latitude": "30.7582855224609", 
+      "longitude": "50.4492520358627",
+      "Id_of_poligon": "8",
+      "order": "10"
+    },
+    {
+      "latitude": "30.7424068450928", 
+      "longitude": "50.4583236753935",
+      "Id_of_poligon": "8",
+      "order": "11"
+    },
+    {
+      "latitude": "30.8290100097656", 
+      "longitude": "50.4588154615598",
+      "Id_of_poligon": "8",
+      "order": "7"
+    },
+    {
+      "latitude": "30.783519744873", 
+      "longitude": "50.4594165265971",
+      "Id_of_poligon": "10",
+      "order": "16"
+    },
+    {
+      "latitude": "30.7963085174561", 
+      "longitude": "50.4597443770344",
+      "Id_of_poligon": "10",
+      "order": "15"
+    },
+    {
+      "latitude": "30.7547664642334", 
+      "longitude": "50.4617660711828",
+      "Id_of_poligon": "8",
+      "order": "12"
+    },
+    {
+      "latitude": "30.8039474487305", 
+      "longitude": "50.4629134807706",
+      "Id_of_poligon": "10",
+      "order": "14"
+    },
+    {
+      "latitude": "30.7691860198975", 
+      "longitude": "50.4632959444471",
+      "Id_of_poligon": "11",
+      "order": "3"
+    },
+    {
+      "latitude": "30.7815456390381", 
+      "longitude": "50.4632959444471",
+      "Id_of_poligon": "11",
+      "order": "4"
+    },
+    {
+      "latitude": "30.750904083252", 
+      "longitude": "50.4646618608999",
+      "Id_of_poligon": "8",
+      "order": "13"
+    },
+    {
+      "latitude": "30.763692855835", 
+      "longitude": "50.4650989458327",
+      "Id_of_poligon": "9",
+      "order": "6"
+    },
+    {
+      "latitude": "30.7901287078857", 
+      "longitude": "50.4651535811652",
+      "Id_of_poligon": "11",
+      "order": "6"
+    },
+    {
+      "latitude": "30.7841205596924", 
+      "longitude": "50.4655906615532",
+      "Id_of_poligon": "11",
+      "order": "5"
+    },
+    {
+      "latitude": "30.7727909088135", 
+      "longitude": "50.4656452963176",
+      "Id_of_poligon": "10",
+      "order": "17"
+    },
+    {
+      "latitude": "30.7870388031006", 
+      "longitude": "50.4656452963176",
+      "Id_of_poligon": "9",
+      "order": "5"
+    },
+    {
+      "latitude": "30.7658386230469", 
+      "longitude": "50.4658092002322",
+      "Id_of_poligon": "11",
+      "order": "2"
+    },
+    {
+      "latitude": "30.7568264007568", 
+      "longitude": "50.4664648102097",
+      "Id_of_poligon": "10",
+      "order": "19"
+    },
+    {
+      "latitude": "30.7539939880371", 
+      "longitude": "50.4666833448489",
+      "Id_of_poligon": "8",
+      "order": "14"
+    },
+    {
+      "latitude": "30.7639503479004", 
+      "longitude": "50.4675028407513",
+      "Id_of_poligon": "10",
+      "order": "18"
+    },
+    {
+      "latitude": "30.76171875", 
+      "longitude": "50.4676667382276",
+      "Id_of_poligon": "11",
+      "order": "1"
+    },
+    {
+      "latitude": "30.7517623901367", 
+      "longitude": "50.4679398994255",
+      "Id_of_poligon": "8",
+      "order": "15"
+    },
+    {
+      "latitude": "30.743522644043", 
+      "longitude": "50.4684315856051",
+      "Id_of_poligon": "10",
+      "order": "21"
+    },
+    {
+      "latitude": "30.741548538208", 
+      "longitude": "50.468650111155",
+      "Id_of_poligon": "8",
+      "order": "19"
+    },
+    {
+      "latitude": "30.7510757446289", 
+      "longitude": "50.468923266672",
+      "Id_of_poligon": "10",
+      "order": "20"
+    },
+    {
+      "latitude": "30.7647228240967", 
+      "longitude": "50.4691417899495",
+      "Id_of_poligon": "10",
+      "order": "5"
+    },
+    {
+      "latitude": "30.7439517974854", 
+      "longitude": "50.4691964206111",
+      "Id_of_poligon": "8",
+      "order": "18"
+    },
+    {
+      "latitude": "30.7536506652832", 
+      "longitude": "50.4691964206111",
+      "Id_of_poligon": "8",
+      "order": "16"
+    },
+    {
+      "latitude": "30.7991409301758", 
+      "longitude": "50.4691964206111",
+      "Id_of_poligon": "10",
+      "order": "13"
+    },
+    {
+      "latitude": "30.7439517974854", 
+      "longitude": "50.4694149426261",
+      "Id_of_poligon": "10",
+      "order": "1"
+    },
+    {
+      "latitude": "30.7590579986572", 
+      "longitude": "50.469524203255",
+      "Id_of_poligon": "10",
+      "order": "4"
+    },
+    {
+      "latitude": "30.7516765594482", 
+      "longitude": "50.4700705026118",
+      "Id_of_poligon": "8",
+      "order": "17"
+    },
+    {
+      "latitude": "30.7495307922363", 
+      "longitude": "50.470234391188",
+      "Id_of_poligon": "10",
+      "order": "2"
+    },
+    {
+      "latitude": "30.7537364959717", 
+      "longitude": "50.4705621666362",
+      "Id_of_poligon": "10",
+      "order": "3"
+    },
+    {
+      "latitude": "30.829610824585", 
+      "longitude": "50.4710538255479",
+      "Id_of_poligon": "8",
+      "order": "6"
+    },
+    {
+      "latitude": "30.7907295227051", 
+      "longitude": "50.4712723389787",
+      "Id_of_poligon": "11",
+      "order": "7"
+    },
+    {
+      "latitude": "30.7533931732178", 
+      "longitude": "50.4713269671786",
+      "Id_of_poligon": "9",
+      "order": "7"
+    },
+    {
+      "latitude": "30.8048057556152", 
+      "longitude": "50.4713815953154",
+      "Id_of_poligon": "8",
+      "order": "5"
+    },
+    {
+      "latitude": "30.7625770568848", 
+      "longitude": "50.4716547350524",
+      "Id_of_poligon": "11",
+      "order": "13"
+    },
+    {
+      "latitude": "30.7995700836182", 
+      "longitude": "50.4721463826026",
+      "Id_of_poligon": "8",
+      "order": "4"
+    },
+    {
+      "latitude": "30.7989692687988", 
+      "longitude": "50.4729657838249",
+      "Id_of_poligon": "11",
+      "order": "8"
+    },
+    {
+      "latitude": "30.7957935333252", 
+      "longitude": "50.4733481662018",
+      "Id_of_poligon": "10",
+      "order": "12"
+    },
+    {
+      "latitude": "30.7497024536133", 
+      "longitude": "50.4743860456345",
+      "Id_of_poligon": "8",
+      "order": "1"
+    },
+    {
+      "latitude": "30.7979393005371", 
+      "longitude": "50.4746591680139",
+      "Id_of_poligon": "9",
+      "order": "4"
+    },
+    {
+      "latitude": "30.7647228240967", 
+      "longitude": "50.4747137923004",
+      "Id_of_poligon": "10",
+      "order": "6"
+    },
+    {
+      "latitude": "30.7868671417236", 
+      "longitude": "50.4758062647762",
+      "Id_of_poligon": "10",
+      "order": "11"
+    },
+    {
+      "latitude": "30.7661819458008", 
+      "longitude": "50.4758608877373",
+      "Id_of_poligon": "11",
+      "order": "12"
+    },
+    {
+      "latitude": "30.7542514801025", 
+      "longitude": "50.4766256025647",
+      "Id_of_poligon": "9",
+      "order": "1"
+    },
+    {
+      "latitude": "30.7945919036865", 
+      "longitude": "50.4808859301404",
+      "Id_of_poligon": "11",
+      "order": "9"
+    },
+    {
+      "latitude": "30.7905578613281", 
+      "longitude": "50.4812682484535",
+      "Id_of_poligon": "10",
+      "order": "10"
+    },
+    {
+      "latitude": "30.7678127288818", 
+      "longitude": "50.4815959474033",
+      "Id_of_poligon": "11",
+      "order": "11"
+    },
+    {
+      "latitude": "30.7632637023926", 
+      "longitude": "50.4817597960261",
+      "Id_of_poligon": "8",
+      "order": "2"
+    },
+    {
+      "latitude": "30.7790565490723", 
+      "longitude": "50.4818144121075",
+      "Id_of_poligon": "11",
+      "order": "10"
+    },
+    {
+      "latitude": "30.7949352264404", 
+      "longitude": "50.4818144121075",
+      "Id_of_poligon": "8",
+      "order": "3"
+    },
+    {
+      "latitude": "30.7652378082275", 
+      "longitude": "50.4820874915676",
+      "Id_of_poligon": "10",
+      "order": "7"
+    },
+    {
+      "latitude": "30.7882404327393", 
+      "longitude": "50.4825244154219",
+      "Id_of_poligon": "9",
+      "order": "3"
+    },
+    {
+      "latitude": "30.7714176177979", 
+      "longitude": "50.4841082305328",
+      "Id_of_poligon": "10",
+      "order": "8"
+    },
+    {
+      "latitude": "30.7703876495361", 
+      "longitude": "50.4853643220164",
+      "Id_of_poligon": "9",
+      "order": "2"
+    },
+    {
+      "latitude": "30.7818031311035", 
+      "longitude": "50.4877671866082",
+      "Id_of_poligon": "10",
+      "order": "9"
+    },
+    {
+      "latitude": "31.17919921875", 
       "longitude": "50.6111317133236",
       "Id_of_poligon": "2",
       "order": "2"
     },
     {
+      "latitude": "34.2333984375", 
       "longitude": "50.6250730634143",
       "Id_of_poligon": "7",
       "order": "1"
     },
     {
+      "latitude": "30.16845703125", 
       "longitude": "50.6390102812587",
       "Id_of_poligon": "2",
       "order": "1"
@@ -2713,20 +3420,6 @@
   ],
   "poligon": [
     {
-      "Id_of_poligon": "1",
-      "brush_color_r": "255",
-      "bruch_color_g": "10",
-      "brush_color_b": "10",
-      "brush_alfa": "100",
-      "line_collor_r": "255",
-      "line_color_g": "255",
-      "line_color_b": "255",
-      "line_alfa": "255",
-      "line_thickness": "1",
-      "name": "one",
-      "id_of_expert": "0"
-    },
-    {
       "Id_of_poligon": "2",
       "brush_color_r": "250",
       "bruch_color_g": "250",
@@ -2809,6 +3502,62 @@
       "line_thickness": "2",
       "name": "Test1",
       "id_of_expert": "3"
+    },
+    {
+      "Id_of_poligon": "8",
+      "brush_color_r": "250",
+      "bruch_color_g": "250",
+      "brush_color_b": "250",
+      "brush_alfa": "250",
+      "line_collor_r": "0",
+      "line_color_g": "250",
+      "line_color_b": "2",
+      "line_alfa": "21",
+      "line_thickness": "2",
+      "name": "Test1",
+      "id_of_expert": "1"
+    },
+    {
+      "Id_of_poligon": "9",
+      "brush_color_r": "250",
+      "bruch_color_g": "250",
+      "brush_color_b": "250",
+      "brush_alfa": "250",
+      "line_collor_r": "0",
+      "line_color_g": "250",
+      "line_color_b": "2",
+      "line_alfa": "21",
+      "line_thickness": "2",
+      "name": "Test1",
+      "id_of_expert": "1"
+    },
+    {
+      "Id_of_poligon": "10",
+      "brush_color_r": "250",
+      "bruch_color_g": "250",
+      "brush_color_b": "250",
+      "brush_alfa": "250",
+      "line_collor_r": "0",
+      "line_color_g": "250",
+      "line_color_b": "2",
+      "line_alfa": "21",
+      "line_thickness": "2",
+      "name": "Test1",
+      "id_of_expert": "1"
+    },
+    {
+      "Id_of_poligon": "11",
+      "brush_color_r": "250",
+      "bruch_color_g": "250",
+      "brush_color_b": "250",
+      "brush_alfa": "250",
+      "line_collor_r": "0",
+      "line_color_g": "250",
+      "line_color_b": "2",
+      "line_alfa": "21",
+      "line_thickness": "2",
+      "name": "Test1",
+      "id_of_expert": "1"
     }
   ],
   "poligon_calculations_description": [
@@ -2828,18 +3577,28 @@
       "id_of_formula": "15"
     },
     {
-      "id_poligon": "5",
-      "calculations_description_number": "1",
-      "id_of_formula": "1"
-    },
-    {
       "id_poligon": "6",
       "calculations_description_number": "2",
       "id_of_formula": "0"
     },
     {
-      "id_poligon": "7",
-      "calculations_description_number": "1",
+      "id_poligon": "8",
+      "calculations_description_number": "2",
+      "id_of_formula": "7"
+    },
+    {
+      "id_poligon": "9",
+      "calculations_description_number": "2",
+      "id_of_formula": "4"
+    },
+    {
+      "id_poligon": "10",
+      "calculations_description_number": "2",
+      "id_of_formula": "5"
+    },
+    {
+      "id_poligon": "11",
+      "calculations_description_number": "2",
       "id_of_formula": "6"
     }
   ],

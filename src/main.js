@@ -4,6 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import TreeView from "vue-json-tree-view"
+import Notifications from 'vue-notification'
+ 
+Vue.use(Notifications)
 Vue.use(TreeView)
 
 Vue.config.productionTip = false
