@@ -53,7 +53,7 @@
             
               <b>Серия розрахункив:</b> <br> {{l.calculation_name}} (Опис : {{l.description_of_calculation}})
               <ul style="margin:0; padding: 0;">
-                <li class="itemToClick" v-for="m in getCalculationResult(l.calculation_number, l.id_of_expert)" @click="showPoligon(get_poligon_calculations_description(l.calculation_number, m.id_of_formula,l.id_of_expert),getFormulaById(m.id_of_formula,l.id_of_expert ).description_of_formula, $event); ">
+                <li class="itemToClick" v-for="m in getCalculationResult(l.calculation_number, l.id_of_expert)" @click="showPoligon(get_poligon_calculations_description(l.calculation_number, m.id_of_formula,l.id_of_expert),getFormulaById(m.id_of_formula,l.id_of_expert ).description_of_formula); ">
                   <p>{{getFormulaById(m.id_of_formula,l.id_of_expert ).name_of_formula}}<br>
                      {{getFormulaById(m.id_of_formula,l.id_of_expert ).description_of_formula}} - {{m.result}} {{getFormulaById(m.id_of_formula,l.id_of_expert ).measurement_of_formula}}
                   </p>
@@ -220,7 +220,6 @@ export default {
           return;
         }
         
-        this.poly.forEach(r => r.setMap(null))
         
         let id = obj[0].id_poligon;
         let poligon = this.poligonById(id);
@@ -260,6 +259,13 @@ export default {
     
       }
 
+  },
+
+  watch : {
+    issueId : function(val, oldVal) {
+        if (oldVal != 0)
+        this.poly.forEach(r => r.setMap(null))
+    }
   },
   created(){
       this.data = d;
