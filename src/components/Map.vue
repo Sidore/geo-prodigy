@@ -219,6 +219,7 @@ export default {
           });
           return;
         }
+        this.poly.forEach(r => r.setMap(null))
         
         
         let id = obj[0].id_poligon;
